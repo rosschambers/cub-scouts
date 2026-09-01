@@ -35,9 +35,9 @@ Edit `config.json`:
 | Key | What |
 |-----|------|
 | `password` | Shared den password for the login gate |
-| `frameApiBaseUrl` | Any OpenAI-compatible chat completions URL |
-| `frameApiKey` | API key for that endpoint |
-| `frameModel` | Model name to request |
+| `llmBaseUrl` | Any OpenAI-compatible chat completions URL |
+| `llmApiKey` | API key for that endpoint |
+| `llmModel` | Model name to request |
 
 ## Run
 

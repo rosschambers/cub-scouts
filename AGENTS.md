@@ -49,7 +49,7 @@ desktop (1280px) and mobile (400px) widths.
 ## Config and auth
 
 - `config.json` holds the shared den password and the connection to an OpenAI-compatible
-  LLM API (`frameApiBaseUrl`, `frameApiKey`, `frameModel`). It is **not tracked in git** —
+  LLM API (`llmBaseUrl`, `llmApiKey`, `llmModel`). It is **not tracked in git** —
   copy `config.example.json` to `config.json` and fill in real values. Fallback defaults
   live in `src/server/config.ts`.
 - Auth is a shared password, not accounts. The login page sends the entered password to

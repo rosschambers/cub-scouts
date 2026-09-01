@@ -48,14 +48,14 @@ Format the plan as plain text with clear section headings. Keep it concise and a
   const timeoutId = setTimeout(() => controller.abort(), 60000);
 
   try {
-    const response = await fetch(`${config.frameApiBaseUrl}/chat/completions`, {
+    const response = await fetch(`${config.llmBaseUrl}/chat/completions`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${config.frameApiKey}`,
+        Authorization: `Bearer ${config.llmApiKey}`,
       },
       body: JSON.stringify({
-        model: config.frameModel,
+        model: config.llmModel,
         messages,
         max_tokens: 2048,
         temperature: 0.7,
@@ -65,14 +65,14 @@ Format the plan as plain text with clear section headings. Keep it concise and a
 
     if (!response.ok) {
       const errorBody = await response.text();
-      throw new Error(`Frame API error ${response.status}: ${errorBody}`);
+      throw new Error(`LLM API error ${response.status}: ${errorBody}`);
     }
 
     const data = (await response.json()) as { choices?: Array<{ message?: { content?: string } }> };
     const content = data.choices?.[0]?.message?.content;
 
     if (!content) {
-      throw new Error("No content in Frame API response");
+      throw new Error("No content in LLM API response");
     }
 
     return content;

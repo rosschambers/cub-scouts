@@ -1,3 +1,10 @@
 {
-  "signups": []
+  "signups": [
+    {
+      "id": "90385c3a-30c4-4ffe-b4ac-485f57321a7b",
+      "adventureId": "bobcat",
+      "parentName": "Test Parent",
+      "timestamp": "2026-09-01T21:21:13.615Z"
+    }
+  ]
 }

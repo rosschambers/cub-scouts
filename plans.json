@@ -1,3 +1,44 @@
 {
-  "plans": []
+  "plans": [
+    {
+      "id": "old",
+      "adventureId": "bobcat",
+      "requirements": {},
+      "content": "old",
+      "timestamp": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "id": "new",
+      "adventureId": "bobcat",
+      "requirements": {},
+      "content": "new",
+      "timestamp": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "other",
+      "adventureId": "floats-and-boats",
+      "requirements": {},
+      "content": "other",
+      "timestamp": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "id": "71cca9f2-5d27-4f45-b633-fb93b6fdf87d",
+      "adventureId": "bobcat",
+      "requirements": {
+        "1": "Me Too Name Game"
+      },
+      "content": "Mocked plan content",
+      "timestamp": "2026-09-01T21:21:13.642Z"
+    },
+    {
+      "id": "98dfa2ed-28a9-4429-93de-eb95851a0041",
+      "adventureId": "bobcat",
+      "requirements": {
+        "1": "Me Too Name Game",
+        "2": "Line-by-line echo"
+      },
+      "content": "Meeting Title: Welcome to the Pack: Bobcat Adventure\n\nTiming Breakdown:\n- Opening: 5 Minutes\n- Req 1 (Me Too Name Game): 10 Minutes\n- Req 2 & 3 (Oath & Law): 10 Minutes\n- Req 4 (Signs & Salutes): 10 Minutes\n- Req 5 (Do Your Best): 10 Minutes\n- Closing: 5 Minutes\n\nTotal Time: Approximately 50 Minutes\n\nMaterials Checklist:\n- Tiger Handbooks (one per Scout)\n- Scout Oath cards (one for each Scout/Tiger adult pair)\n- \"How to Protect Your Children from Child Abuse\" booklets (to be distributed for home use)\n- Name tags (optional, but helpful for new Scouts)\n\nSafety Notes:\n- General Supervision: Ensure all Scouts are supervised by an adult at all times.\n- Pairing: If possible, pair each Tiger Scout with a specific \"Tiger Adult\" (parent or leader) to help them navigate the handbook and feel comfortable during the oath and law discussions.\n- Home Activity: Remind parents that Requirement 6 is specifically designed for the home environment and should be completed with the child privately.\n\nCustom Notes:\n- Me Too Name Game: Have the Scouts stand in a circle. One Scout says, \"My name is [Name] and I like [Activity].\" All other Scouts who also like that activity (or share that name) step forward and say, \"Me Too!\"\n- Oath & Law: For the \"Line-by-line echo,\" the leader reads one line, and the Scouts repeat it back. For the Law, after each word is read, ask the Scouts to give a \"thumbs up\" if they know what that word means, then briefly explain the word (e.g., \"Helpful means helping a friend carry something heavy\").\n- Signs & Salutes: Have the Scouts practice the Sign (two fingers up) for when they are listening to an adult, the Salute (two fingers to the brow) for when they are being recognized, and the Handshake (two fingers extended) when greeting others.\n- Do Your Best: Encourage Scouts to think of a specific moment (like a sports game, a school project, or learning to ride a bike) where they gave it their all.\n- Requirement 6: Explicitly tell the parents that this specific booklet is their \"homework\" to complete with their child at home to ensure the child feels safe and empowered.",
+      "timestamp": "2026-09-01T21:21:57.608Z"
+    }
+  ]
 }

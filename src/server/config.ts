@@ -21,16 +21,16 @@ const rootDir = findProjectRoot();
 
 export interface Config {
   password: string;
-  frameApiBaseUrl: string;
-  frameApiKey: string;
-  frameModel: string;
+  llmBaseUrl: string;
+  llmApiKey: string;
+  llmModel: string;
 }
 
 const DEFAULT_CONFIG: Config = {
   password: "",
-  frameApiBaseUrl: "http://localhost:8080/v1",
-  frameApiKey: "sk-local",
-  frameModel: "local-model",
+  llmBaseUrl: "http://localhost:8080/v1",
+  llmApiKey: "sk-local",
+  llmModel: "local-model",
 };
 
 function loadConfig(): Config {

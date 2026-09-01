@@ -13,9 +13,9 @@ describe("config", () => {
     vi.resetModules();
     const mod = await import("./config.js");
     expect(mod.config.password).toBe("");
-    expect(mod.config.frameApiBaseUrl).toBe("http://localhost:8080/v1");
-    expect(mod.config.frameApiKey).toBe("sk-local");
-    expect(mod.config.frameModel).toBe("local-model");
+    expect(mod.config.llmBaseUrl).toBe("http://localhost:8080/v1");
+    expect(mod.config.llmApiKey).toBe("sk-local");
+    expect(mod.config.llmModel).toBe("local-model");
   });
 
   it("reads password override from config.json", async () => {
@@ -23,22 +23,22 @@ describe("config", () => {
     vi.resetModules();
     const mod = await import("./config.js");
     expect(mod.config.password).toBe("test123");
-    expect(mod.config.frameApiKey).toBe("sk-local");
+    expect(mod.config.llmApiKey).toBe("sk-local");
   });
 
   it("reads full config from config.json", async () => {
     writeFileSync(configPath, JSON.stringify({
       password: "mysecret",
-      frameApiBaseUrl: "http://example.com/v1",
-      frameApiKey: "my-key",
-      frameModel: "my-model",
+      llmBaseUrl: "http://example.com/v1",
+      llmApiKey: "my-key",
+      llmModel: "my-model",
     }));
     vi.resetModules();
     const mod = await import("./config.js");
     expect(mod.config.password).toBe("mysecret");
-    expect(mod.config.frameApiBaseUrl).toBe("http://example.com/v1");
-    expect(mod.config.frameApiKey).toBe("my-key");
-    expect(mod.config.frameModel).toBe("my-model");
+    expect(mod.config.llmBaseUrl).toBe("http://example.com/v1");
+    expect(mod.config.llmApiKey).toBe("my-key");
+    expect(mod.config.llmModel).toBe("my-model");
   });
 
   afterAll(() => {
