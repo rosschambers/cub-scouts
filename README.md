@@ -1,12 +1,25 @@
 # cub-scouts
 
-A den meeting planner for Cub Scout dens — a password-gated web app for den parents:
-browse the rank's Adventures (currently the Tiger rank's 14 adventures),
-pick an activity for each requirement, sign up to run a meeting, and generate a printable
-meeting plan with a local LLM.
+A meeting planner for Cub Scout den leaders. Browse your rank's adventures, pick
+activities for each requirement, sign up to run a meeting, and generate a printable
+meeting plan powered by a local LLM.
 
-Vanilla TypeScript SPA (Vite, hash routing, no framework) plus a thin Express API.
-Sign-ups and plan versions are stored as JSON files on disk — no database.
+![Dashboard showing Tiger adventures](assets/dashboard.png)
+
+## Features
+
+- Password-gated — one shared den password, no accounts to manage.
+- 6 required + 8 elective Tiger adventures with per-requirement activity choices.
+- Parent sign-ups stored as JSON on disk. No database.
+- LLM-generated meeting plans via any OpenAI-compatible endpoint (llama.cpp, Ollama,
+  LM Studio, or a hosted API). Everything else works without one.
+- Guided 3-step wizard: pick activities, review and sign up, generate a plan.
+- Docker support for deployment.
+
+## Tech stack
+
+Vanilla TypeScript SPA (Vite, hash routing, no framework) plus a thin Express API server.
+Vitest for tests (12). No build-time dependencies beyond Vite and TypeScript.
 
 ## Setup
 
@@ -21,32 +34,23 @@ Edit `config.json`:
 
 | Key | What |
 |-----|------|
-| `password` | The shared den password parents log in with |
-| `frameApiBaseUrl` | Base URL of any OpenAI-compatible chat completions API (`http://localhost:8080/v1` for a local llama.cpp / LM Studio / Ollama endpoint) |
-| `frameApiKey` | API key for that endpoint (`sk-local` is fine for local servers) |
+| `password` | Shared den password for the login gate |
+| `frameApiBaseUrl` | Any OpenAI-compatible chat completions URL |
+| `frameApiKey` | API key for that endpoint |
 | `frameModel` | Model name to request |
-
-Plan generation calls `POST {frameApiBaseUrl}/chat/completions`. Everything else works
-without an LLM endpoint.
 
 ## Run
 
 ```bash
-npm run dev        # Vite dev server on port 3001 + API server
-npm run build      # compile server + bundle client into dist/
-npm start          # run the built server (see AGENTS.md for the nested dist path gotcha)
-npm test           # Vitest (12 tests)
-npm run typecheck  # both tsconfigs, no emit
+npm run dev        # Vite dev server + API on port 3001
+npm run build      # compile and bundle into dist/
+npm start          # run the production build
+npm test           # 12 tests
+npm run typecheck  # both tsconfigs
 ```
 
-Docker: `docker compose up --build` (make sure `config.json` exists first — the image
-copies it in at build time).
-
-## Repository notes
-
-`AGENTS.md` holds the architecture map and the hard-won gotchas — read it before
-changing anything non-trivial.
+Docker: `docker compose up --build` (needs `config.json` in the build context).
 
 ## License
 
-MIT — see `LICENSE`.
+MIT — see [LICENSE](LICENSE).
