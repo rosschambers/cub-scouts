@@ -1,0 +1,6 @@
+{
+  "password": "change-me",
+  "frameApiBaseUrl": "http://localhost:8080/v1",
+  "frameApiKey": "sk-local",
+  "frameModel": "local-model"
+}

@@ -1,0 +1,20 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cub-scouts
+    ports:
+      - "8122:3000"
+    volumes:
+      - ./signups.json:/app/signups.json:rw
+    networks:
+      - default
+    restart: unless-stopped
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+
+networks:
+  default:
+    name: serve-network
+    external: true

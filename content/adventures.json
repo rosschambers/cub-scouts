@@ -1,0 +1,964 @@
+{
+  "adventures": [
+    {
+      "id": "bobcat",
+      "name": "Bobcat",
+      "type": "required",
+      "category": "Character & Leadership",
+      "description": "The first rank every Cub Scout earns. Learn the Scout Oath and Law, the Cub Scout sign, salute, and handshake, and the motto 'Do Your Best.'",
+      "prerequisites": [
+        "None \u2014 Bobcat is the first rank a new Cub Scout earns"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Scout Oath card",
+        "How to Protect Your Children from Child Abuse: A Parent's Guide (for requirement 6)"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Get to know the members of your den.",
+          "activities": [
+            {
+              "id": "bobcat-1a",
+              "name": "Play a get-to-know-you game at your den meeting."
+            },
+            {
+              "id": "bobcat-1b",
+              "name": "Introduce yourself to each Scout in your den and learn one thing about each of them."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Recite the Scout Oath with your den, including your Tiger adult partner.",
+          "activities": [
+            {
+              "id": "bobcat-2a",
+              "name": "Practice reciting the Scout Oath together as a den."
+            },
+            {
+              "id": "bobcat-2b",
+              "name": "Recite the Scout Oath with your Tiger adult partner."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Have your Tiger adult partner or den leader read the Scout Law to you. Demonstrate your understanding of being trustworthy, helpful, or friendly.",
+          "activities": [
+            {
+              "id": "bobcat-3a",
+              "name": "Listen as the Scout Law is read, then talk about what 'trustworthy,' 'helpful,' or 'friendly' means."
+            },
+            {
+              "id": "bobcat-3b",
+              "name": "Share a time you were trustworthy, helpful, or friendly."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Demonstrate the Cub Scout sign, Cub Scout salute and Cub Scout handshake. Show how each are used.",
+          "activities": [
+            {
+              "id": "bobcat-4a",
+              "name": "Learn and practice the Cub Scout sign, salute, and handshake."
+            },
+            {
+              "id": "bobcat-4b",
+              "name": "Show when each is used during a den meeting."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Share with your Tiger adult partner, at a den meeting or at home, a time when you have demonstrated the Cub Scout motto 'Do Your Best.'",
+          "activities": [
+            {
+              "id": "bobcat-5a",
+              "name": "Tell your den or family about a time you did your best."
+            },
+            {
+              "id": "bobcat-5b",
+              "name": "Share an example of 'Do Your Best' at home with your Tiger adult partner."
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "At home, with your parent or legal guardian do the activities in the booklet 'How to Protect Your Children from Child Abuse: A Parent's Guide.'",
+          "activities": [
+            {
+              "id": "bobcat-6a",
+              "name": "Complete the activities in the parent's guide booklet at home with your parent or guardian."
+            },
+            {
+              "id": "bobcat-6b",
+              "name": "Talk with your family about what you learned from the booklet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiger-bites",
+      "name": "Tiger Bites",
+      "type": "required",
+      "category": "Personal Fitness",
+      "description": "Discover how eating right and being active helps you grow strong.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Paper plates",
+        "Markers"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Talk about what happens when you don't eat right.",
+          "activities": [
+            {
+              "id": "tiger-bites-1a",
+              "name": "Discuss how you feel when you eat junk food versus healthy food."
+            },
+            {
+              "id": "tiger-bites-1b",
+              "name": "Make a list of healthy snacks."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Learn why fruits and vegetables are important.",
+          "activities": [
+            {
+              "id": "tiger-bites-2a",
+              "name": "Taste test different fruits and vegetables."
+            },
+            {
+              "id": "tiger-bites-2b",
+              "name": "Create a healthy plate using food groups."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Play a game that helps you learn about healthy eating.",
+          "activities": [
+            {
+              "id": "tiger-bites-3a",
+              "name": "Play 'Healthy Foods Bingo.'"
+            },
+            {
+              "id": "tiger-bites-3b",
+              "name": "Make a fruit and vegetable crossword puzzle."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Show how you can be active every day.",
+          "activities": [
+            {
+              "id": "tiger-bites-4a",
+              "name": "Demonstrate three ways to stay active."
+            },
+            {
+              "id": "tiger-bites-4b",
+              "name": "Create a daily activity plan with your family."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tigers-roar",
+      "name": "Tiger's Roar",
+      "type": "required",
+      "category": "Communication",
+      "description": "Use your voice and body to express yourself through stories, songs, and games.",
+      "prerequisites": [
+        "Tiger Bites"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Props for storytelling"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Tell a story using your voice and actions.",
+          "activities": [
+            {
+              "id": "tigers-roar-1a",
+              "name": "Practice telling a short story to your den."
+            },
+            {
+              "id": "tigers-roar-1b",
+              "name": "Use different voices and gestures while storytelling."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Learn a song and perform it for your den or family.",
+          "activities": [
+            {
+              "id": "tigers-roar-2a",
+              "name": "Learn a Tiger den song."
+            },
+            {
+              "id": "tigers-roar-2b",
+              "name": "Sing the song at a pack meeting."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Play a game where you listen and respond to directions.",
+          "activities": [
+            {
+              "id": "tigers-roar-3a",
+              "name": "Play a listening game like 'Simon Says.'"
+            },
+            {
+              "id": "tigers-roar-3b",
+              "name": "Practice following group directions quickly."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Talk about how you feel and why.",
+          "activities": [
+            {
+              "id": "tigers-roar-4a",
+              "name": "Share how you felt about a recent activity."
+            },
+            {
+              "id": "tigers-roar-4b",
+              "name": "Practice using words to describe emotions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tigers-circles",
+      "name": "Tiger Circles",
+      "type": "required",
+      "category": "Science and Technology",
+      "description": "Explore the world around you through observation, experiments, and discovery.",
+      "prerequisites": [
+        "Tiger's Roar"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Magnifying glass",
+        "Nature items"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Observe something in nature and describe what you see.",
+          "activities": [
+            {
+              "id": "tigers-circles-1a",
+              "name": "Go on a nature walk and observe plants or animals."
+            },
+            {
+              "id": "tigers-circles-1b",
+              "name": "Draw or write about what you observed."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Do a simple science experiment.",
+          "activities": [
+            {
+              "id": "tigers-circles-2a",
+              "name": "Perform a simple experiment like baking soda and vinegar."
+            },
+            {
+              "id": "tigers-circles-2b",
+              "name": "Discuss what happened and why."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Learn about one way technology helps people.",
+          "activities": [
+            {
+              "id": "tigers-circles-3a",
+              "name": "Talk about a piece of technology your family uses."
+            },
+            {
+              "id": "tigers-circles-3b",
+              "name": "Discuss how technology has changed over time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-tiger",
+      "name": "Team Tiger",
+      "type": "required",
+      "category": "Family and Friends",
+      "description": "Work together with your den and family to accomplish goals and have fun.",
+      "prerequisites": [
+        "Tiger Circles"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Team activity supplies"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Work as a team to complete a project.",
+          "activities": [
+            {
+              "id": "team-tiger-1a",
+              "name": "Build something together as a den."
+            },
+            {
+              "id": "team-tiger-1b",
+              "name": "Cooperate on a group art project."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Help someone in your den with a task.",
+          "activities": [
+            {
+              "id": "team-tiger-2a",
+              "name": "Assist a fellow Tiger with a skill."
+            },
+            {
+              "id": "team-tiger-2b",
+              "name": "Practice being a team player."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Play a game that requires teamwork.",
+          "activities": [
+            {
+              "id": "team-tiger-3a",
+              "name": "Play a team-building game like a relay race."
+            },
+            {
+              "id": "team-tiger-3b",
+              "name": "Work together to solve a puzzle."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Talk about what makes a good team member.",
+          "activities": [
+            {
+              "id": "team-tiger-4a",
+              "name": "Discuss qualities of a good team player."
+            },
+            {
+              "id": "team-tiger-4b",
+              "name": "Share examples of good teamwork from your den."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tigers-in-the-wild",
+      "name": "Tigers in the Wild",
+      "type": "required",
+      "category": "The World Around Us",
+      "description": "Learn about the world outside \u2014 animals, plants, and how to protect the environment.",
+      "prerequisites": [
+        "Team Tiger"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Field guide",
+        "Journal"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn about three animals that live in the wild.",
+          "activities": [
+            {
+              "id": "tigers-in-the-wild-1a",
+              "name": "Research three wild animals."
+            },
+            {
+              "id": "tigers-in-the-wild-1b",
+              "name": "Draw or describe each animal and its habitat."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Visit a place in nature and observe it.",
+          "activities": [
+            {
+              "id": "tigers-in-the-wild-2a",
+              "name": "Visit a park, zoo, or nature center."
+            },
+            {
+              "id": "tigers-in-the-wild-2b",
+              "name": "Write or draw about your observations."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Learn how to protect plants and animals.",
+          "activities": [
+            {
+              "id": "tigers-in-the-wild-3a",
+              "name": "Discuss ways to help the environment."
+            },
+            {
+              "id": "tigers-in-the-wild-3b",
+              "name": "Create a simple plan to help protect nature."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Learn about one plant that grows in your area.",
+          "activities": [
+            {
+              "id": "tigers-in-the-wild-4a",
+              "name": "Identify a local plant."
+            },
+            {
+              "id": "tigers-in-the-wild-4b",
+              "name": "Learn about why it's important to the local ecosystem."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Talk about how you can help take care of the Earth.",
+          "activities": [
+            {
+              "id": "tigers-in-the-wild-5a",
+              "name": "Share one way you can help the environment."
+            },
+            {
+              "id": "tigers-in-the-wild-5b",
+              "name": "Create a personal 'help the Earth' pledge."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "champions-for-nature",
+      "name": "Champions for Nature",
+      "type": "optional",
+      "category": "Nature & Environment",
+      "description": "Learn how to protect the environment and care for plants, animals, and the world around you.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Paper and crayons"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn about animals in your area and how to respect their homes.",
+          "activities": [
+            {
+              "id": "champions-for-nature-1a",
+              "name": "Talk about local animals and where they live."
+            },
+            {
+              "id": "champions-for-nature-1b",
+              "name": "Share how you can keep animal homes safe."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Learn how to reduce, reuse, and recycle.",
+          "activities": [
+            {
+              "id": "champions-for-nature-2a",
+              "name": "Sort items into reduce, reuse, and recycle."
+            },
+            {
+              "id": "champions-for-nature-2b",
+              "name": "Make something new from recycled materials."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Discover ways to save water and energy at home.",
+          "activities": [
+            {
+              "id": "champions-for-nature-3a",
+              "name": "Find ways your family can save water."
+            },
+            {
+              "id": "champions-for-nature-3b",
+              "name": "Learn how turning off lights saves energy."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Take part in an activity that helps nature.",
+          "activities": [
+            {
+              "id": "champions-for-nature-4a",
+              "name": "Plant a seed or care for a plant."
+            },
+            {
+              "id": "champions-for-nature-4b",
+              "name": "Pick up litter in your neighborhood."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "floats-and-boats",
+      "name": "Floats and Boats",
+      "type": "optional",
+      "category": "Science & Technology",
+      "description": "Explore why things float and build your own simple boat.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Foam trays",
+        "Milk cartons",
+        "Straws",
+        "Paper",
+        "A tub of water"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn what makes things float or sink.",
+          "activities": [
+            {
+              "id": "floats-and-boats-1a",
+              "name": "Test different objects in water to see if they float or sink."
+            },
+            {
+              "id": "floats-and-boats-1b",
+              "name": "Talk about why some things float."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Build a simple boat that floats.",
+          "activities": [
+            {
+              "id": "floats-and-boats-2a",
+              "name": "Build a boat from foam or a milk carton."
+            },
+            {
+              "id": "floats-and-boats-2b",
+              "name": "Test your boat in a tub of water."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Learn about boats and people who use them.",
+          "activities": [
+            {
+              "id": "floats-and-boats-3a",
+              "name": "Name different kinds of boats."
+            },
+            {
+              "id": "floats-and-boats-3b",
+              "name": "Talk about how boats help people."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "good-knights",
+      "name": "Good Knights",
+      "type": "optional",
+      "category": "Imagination & Creativity",
+      "description": "Use your imagination to become a knight and create a story of courage and kindness.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Cardboard",
+        "Paper towel rolls",
+        "Markers",
+        "Craft supplies"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn what a knight is and what knights did.",
+          "activities": [
+            {
+              "id": "good-knights-1a",
+              "name": "Hear a story about knights and castles."
+            },
+            {
+              "id": "good-knights-1b",
+              "name": "Share one thing knights did long ago."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Create your own knight's shield or armor.",
+          "activities": [
+            {
+              "id": "good-knights-2a",
+              "name": "Make a shield from cardboard."
+            },
+            {
+              "id": "good-knights-2b",
+              "name": "Decorate a helmet or sword from paper towel rolls."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Demonstrate the qualities of a good knight.",
+          "activities": [
+            {
+              "id": "good-knights-3a",
+              "name": "Show courage by trying something new."
+            },
+            {
+              "id": "good-knights-3b",
+              "name": "Show kindness by helping someone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rolling-tigers",
+      "name": "Rolling Tigers",
+      "type": "optional",
+      "category": "Science & Technology",
+      "description": "Learn how wheels and axles work by building a model car.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Box or foam block",
+        "Wooden skewers",
+        "Bottle caps",
+        "Straws"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn how wheels and axles help things move.",
+          "activities": [
+            {
+              "id": "rolling-tigers-1a",
+              "name": "Look at how wheels are used on toys and vehicles."
+            },
+            {
+              "id": "rolling-tigers-1b",
+              "name": "Explain what an axle does."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Build a model car with wheels and an axle.",
+          "activities": [
+            {
+              "id": "rolling-tigers-2a",
+              "name": "Build a car body from a box or foam block."
+            },
+            {
+              "id": "rolling-tigers-2b",
+              "name": "Add bottle-cap wheels and test that they roll."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Race your car and talk about what made it go.",
+          "activities": [
+            {
+              "id": "rolling-tigers-3a",
+              "name": "Race your model car with your den."
+            },
+            {
+              "id": "rolling-tigers-3b",
+              "name": "Talk about what made the car roll well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sky-is-the-limit",
+      "name": "Sky is the Limit",
+      "type": "optional",
+      "category": "Science & Technology",
+      "description": "Discover flight and space, and build your own flying toy.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Paper",
+        "Rubber bands",
+        "Straws",
+        "Tape"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn what makes things fly.",
+          "activities": [
+            {
+              "id": "sky-is-the-limit-1a",
+              "name": "Talk about birds, planes, and rockets."
+            },
+            {
+              "id": "sky-is-the-limit-1b",
+              "name": "Share what you think makes them fly."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Build and fly a simple flying toy.",
+          "activities": [
+            {
+              "id": "sky-is-the-limit-2a",
+              "name": "Make a paper airplane."
+            },
+            {
+              "id": "sky-is-the-limit-2b",
+              "name": "Build a straw-and-rubber-band launcher."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Learn about space and people who explore it.",
+          "activities": [
+            {
+              "id": "sky-is-the-limit-3a",
+              "name": "Name something you can see in the night sky."
+            },
+            {
+              "id": "sky-is-the-limit-3b",
+              "name": "Talk about what astronauts do."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stories-in-shapes",
+      "name": "Stories in Shapes",
+      "type": "optional",
+      "category": "Art & Creativity",
+      "description": "Create art using shapes and colors, and tell a story with your art.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Construction paper",
+        "Scissors",
+        "Glue",
+        "Markers"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Explore how artists use shapes and colors.",
+          "activities": [
+            {
+              "id": "stories-in-shapes-1a",
+              "name": "Look at art and find the shapes in it."
+            },
+            {
+              "id": "stories-in-shapes-1b",
+              "name": "Name the colors you see in artwork."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Create a picture using shapes.",
+          "activities": [
+            {
+              "id": "stories-in-shapes-2a",
+              "name": "Cut and glue shapes into a picture."
+            },
+            {
+              "id": "stories-in-shapes-2b",
+              "name": "Use shapes to make an animal or scene."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Tell a story about your art.",
+          "activities": [
+            {
+              "id": "stories-in-shapes-3a",
+              "name": "Describe what your picture shows."
+            },
+            {
+              "id": "stories-in-shapes-3b",
+              "name": "Tell the story behind your creation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiger-iffic",
+      "name": "Tiger-iffic!",
+      "type": "optional",
+      "category": "Personal Fitness",
+      "description": "Get moving and discover how fun it is to be active and healthy.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Comfortable clothes",
+        "Water bottle"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn why being active keeps you healthy.",
+          "activities": [
+            {
+              "id": "tiger-iffic-1a",
+              "name": "Talk about why exercise is good for your body."
+            },
+            {
+              "id": "tiger-iffic-1b",
+              "name": "Share a fun way you like to be active."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Play an active game with your den.",
+          "activities": [
+            {
+              "id": "tiger-iffic-2a",
+              "name": "Play a running or movement game."
+            },
+            {
+              "id": "tiger-iffic-2b",
+              "name": "Do a stretching routine together."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Learn how your heart and body feel when active.",
+          "activities": [
+            {
+              "id": "tiger-iffic-3a",
+              "name": "Feel your heart beat faster after exercise."
+            },
+            {
+              "id": "tiger-iffic-3b",
+              "name": "Talk about how being active makes you feel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiger-tag",
+      "name": "Tiger Tag",
+      "type": "optional",
+      "category": "Games & Fun",
+      "description": "Play active games with your den and learn how to have fun together.",
+      "prerequisites": [
+        "Bobcat rank"
+      ],
+      "materials": [
+        "Tiger Handbook",
+        "Open space",
+        "Soft balls or cones"
+      ],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn the rules of a game and play it.",
+          "activities": [
+            {
+              "id": "tiger-tag-1a",
+              "name": "Learn a tag or chasing game."
+            },
+            {
+              "id": "tiger-tag-1b",
+              "name": "Play the game with your den."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Create a game of your own.",
+          "activities": [
+            {
+              "id": "tiger-tag-2a",
+              "name": "Invent a game with simple rules."
+            },
+            {
+              "id": "tiger-tag-2b",
+              "name": "Teach your game to the den."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Learn about good sportsmanship.",
+          "activities": [
+            {
+              "id": "tiger-tag-3a",
+              "name": "Practice taking turns and being fair."
+            },
+            {
+              "id": "tiger-tag-3b",
+              "name": "Cheer for teammates and shake hands after the game."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

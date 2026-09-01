@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cub Scouts Meeting Planner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f59e0b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2S9 4 9 7s2 5 2 9h-1s0-2-1-4c-2-4-6-2-6 1s2 3 2 3c0-3 3.5-3 3.5 0H7v2h3.5L9 20s1 1 2 0l1 2l1-2c1 1 2 0 2 0l-1.5-2H17v-2h-1.5c0-3 3.5-3 3.5 0c0 0 2 0 2-3s-4-5-6-1c-1 2-1 4-1 4h-1c0-4 2-6 2-9s-3-5-3-5'/></svg>">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="password-gate" role="dialog" aria-labelledby="gate-title">
+    <div class="gate-inner">
+      <div class="gate-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2S9 4 9 7s2 5 2 9h-1s0-2-1-4c-2-4-6-2-6 1s2 3 2 3c0-3 3.5-3 3.5 0H7v2h3.5L9 20s1 1 2 0l1 2l1-2c1 1 2 0 2 0l-1.5-2H17v-2h-1.5c0-3 3.5-3 3.5 0c0 0 2 0 2-3s-4-5-6-1c-1 2-1 4-1 4h-1c0-4 2-6 2-9s-3-5-3-5"/></svg>
+      </div>
+      <h1 id="gate-title">Cub Scouts Meeting Planner</h1>
+      <p>Enter the password to continue.</p>
+      <input type="password" class="gate-input" id="gate-password" placeholder="Password" aria-label="Password" autocomplete="off">
+      <button class="gate-btn" id="gate-submit" aria-label="Unlock">Unlock</button>
+      <div class="gate-error" id="gate-error" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div id="app">
+    <nav id="sidebar" aria-label="Main navigation">
+      <div class="sidebar-brand">
+        <h2>
+          <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2S9 4 9 7s2 5 2 9h-1s0-2-1-4c-2-4-6-2-6 1s2 3 2 3c0-3 3.5-3 3.5 0H7v2h3.5L9 20s1 1 2 0l1 2l1-2c1 1 2 0 2 0l-1.5-2H17v-2h-1.5c0-3 3.5-3 3.5 0c0 0 2 0 2-3s-4-5-6-1c-1 2-1 4-1 4h-1c0-4 2-6 2-9s-3-5-3-5"/></svg>
+          Cub Scouts
+        </h2>
+        <span>Meeting Planner</span>
+      </div>
+      <ul class="sidebar-nav">
+        <li><a href="#/" class="active" id="nav-dashboard"><span class="nav-icon" aria-hidden="true">🏠</span> Dashboard</a></li>
+      </ul>
+    </nav>
+
+    <main id="main">
+      <div id="dashboard-page"></div>
+      <div id="detail-page"></div>
+    </main>
+  </div>
+
+  <nav id="bottom-nav" aria-label="Mobile navigation">
+    <ul class="bottom-nav-items">
+      <li><a href="#/" class="active" id="bnav-dashboard"><span class="nav-icon" aria-hidden="true">🏠</span> Dashboard</a></li>
+    </ul>
+  </nav>
+
+  <script type="module" src="@/client/index.ts"></script>
+</body>
+</html>
