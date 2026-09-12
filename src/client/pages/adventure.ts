@@ -9,6 +9,7 @@ let wizardStep: 1 | 2 | 3 = 1;
 let chosen: Record<number, string> = {};
 let planVersions: PlanVersion[] = [];
 let activeVersionId: string | null = null;
+let currentSignupNames: string[] = [];
 
 export async function renderAdventure(adventureId: string): Promise<void> {
   const detailPage = document.getElementById("detail-page");
@@ -226,13 +227,23 @@ async function refreshSignupList(adventureId: string): Promise<void> {
   try {
     const data = await getSignUps();
     const signups = data.signups.filter((s) => s.adventureId === adventureId);
+    currentSignupNames = signups.map((s) => s.parentName);
     const list = document.getElementById("signup-list");
     if (list) {
-      list.innerHTML = signups.map((s) => `<li>${s.parentName}</li>`).join("");
+      list.innerHTML = signups.length
+        ? signups.map((s) => `<li>${s.parentName}</li>`).join("")
+        : `<li class="signup-empty">No one has signed up yet — be the first!</li>`;
     }
   } catch {
     // keep going without signup data
   }
+}
+
+// A 401 means the stored password is missing or no longer valid. Clear it and
+// send the user back to the login gate rather than stranding them on an error.
+function handleAuthExpired(): void {
+  localStorage.removeItem("tigerden-auth");
+  window.location.reload();
 }
 
 function attachStepListeners(adventureId: string): void {
@@ -270,12 +281,32 @@ function attachStepListeners(adventureId: string): void {
     nextBtn?.addEventListener("click", () => { wizardStep = 3; renderWizardBody(adventureId); });
 
     const form = document.getElementById("signup-form") as HTMLFormElement | null;
+    const submitBtn = form?.querySelector('button[type="submit"]') as HTMLButtonElement | null;
     if (form) {
       form.addEventListener("submit", async (e) => {
         e.preventDefault();
         const nameInput = document.getElementById("parent-name") as HTMLInputElement | null;
         const status = document.getElementById("signup-status");
         if (!nameInput || !status) return;
+
+        const parentName = nameInput.value.trim();
+        status.classList.remove("signup-status-error");
+
+        if (!parentName) {
+          status.classList.add("signup-status-error");
+          status.textContent = "Please enter your name first.";
+          nameInput.focus();
+          return;
+        }
+
+        if (currentSignupNames.some((n) => n.toLowerCase() === parentName.toLowerCase())) {
+          status.classList.add("signup-status-error");
+          status.textContent = `${parentName} is already signed up for this meeting.`;
+          return;
+        }
+
+        submitBtn?.setAttribute("disabled", "disabled");
+        status.textContent = "Signing you up…";
         try {
           const res = await fetch("/api/signups", {
             method: "POST",
@@ -283,18 +314,26 @@ function attachStepListeners(adventureId: string): void {
               "X-Password": localStorage.getItem("tigerden-auth") ?? "",
               "Content-Type": "application/json",
             },
-            body: JSON.stringify({ adventureId, parentName: nameInput.value }),
+            body: JSON.stringify({ adventureId, parentName }),
           });
           if (res.ok) {
-            status.textContent = "You're signed up!";
+            status.textContent = "You're signed up! 🎉";
             nameInput.value = "";
             refreshSignupList(adventureId);
+          } else if (res.status === 401) {
+            handleAuthExpired();
           } else {
-            const err = await res.json();
-            status.textContent = `Error: ${err.error}`;
+            const err = await res.json().catch(() => ({}));
+            status.classList.add("signup-status-error");
+            status.textContent = err.error
+              ? `Couldn't sign up: ${err.error}`
+              : "Couldn't sign up. Please try again.";
           }
-        } catch (err) {
-          status.textContent = `Failed to sign up: ${(err as Error).message}`;
+        } catch {
+          status.classList.add("signup-status-error");
+          status.textContent = "Couldn't reach the server. Check your connection and try again.";
+        } finally {
+          submitBtn?.removeAttribute("disabled");
         }
       });
     }

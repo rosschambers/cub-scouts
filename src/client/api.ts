@@ -10,6 +10,13 @@ function headers(): Record<string, string> {
   return { "X-Password": getPassword(), "Content-Type": "application/json" };
 }
 
+// A 401 on any authenticated call means the stored password is stale. Clear it
+// and reload so the login gate takes over instead of surfacing a raw error.
+function handleUnauthorized(): void {
+  localStorage.removeItem(PASSWORD_KEY);
+  window.location.reload();
+}
+
 export async function getConfig(): Promise<ConfigResponse> {
   const res = await fetch("/api/config");
   if (!res.ok) throw new Error(`Config error: ${res.status}`);
@@ -67,8 +74,12 @@ export async function generatePlan(
     headers: headers(),
     body: JSON.stringify({ adventureId, requirements }),
   });
+  if (res.status === 401) {
+    handleUnauthorized();
+    throw new Error("Your session expired. Please sign in again.");
+  }
   if (!res.ok) {
-    const err = await res.json();
+    const err = await res.json().catch(() => ({}));
     throw new Error(err.error ?? `Plan generation failed: ${res.status}`);
   }
   return res.json();

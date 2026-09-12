@@ -5,98 +5,63 @@
       "name": "Bobcat",
       "type": "required",
       "category": "Character & Leadership",
-      "description": "The first rank every Cub Scout earns. Learn the Scout Oath and Law, the Cub Scout sign, salute, and handshake, and the motto 'Do Your Best.'",
+      "description": "The Bobcat Adventure is the first required Adventure on the trail to earn the Tiger badge of rank. Once the Bobcat Adventure is completed, Tigers can start any other of the Adventures in any order.",
       "prerequisites": [
-        "None \u2014 Bobcat is the first rank a new Cub Scout earns"
+        "None — Bobcat is the first required Adventure a new Tiger earns"
       ],
-      "materials": [
-        "Tiger Handbook",
-        "Scout Oath card",
-        "How to Protect Your Children from Child Abuse: A Parent's Guide (for requirement 6)"
-      ],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
           "text": "Get to know the members of your den.",
           "activities": [
-            {
-              "id": "bobcat-1a",
-              "name": "Play a get-to-know-you game at your den meeting."
-            },
-            {
-              "id": "bobcat-1b",
-              "name": "Introduce yourself to each Scout in your den and learn one thing about each of them."
-            }
+            { "id": "bobcat-1a", "name": "A Time to Talk – A Time to Listen", "description": "The Cub Scout sign is a way to help Cub Scouts learn good manners and communication skills." },
+            { "id": "bobcat-1b", "name": "Den Doodle Tiger", "description": "The den doodle is a craft project that can be used to track attendance, reward good behavior, and completion of requirements." },
+            { "id": "bobcat-1c", "name": "Den Flag Tiger", "description": "A den flag is a craft that can bring your den together by getting to know everyone's name and having a symbol that everyone has a part in making." },
+            { "id": "bobcat-1d", "name": "Me Too Name Game", "description": "Learn how much everyone in the den has in common." },
+            { "id": "bobcat-1e", "name": "Spider Web", "description": "Members of the den learn about each other as they build a spider web of yarn." }
           ]
         },
         {
           "number": 2,
           "text": "Recite the Scout Oath with your den, including your Tiger adult partner.",
           "activities": [
-            {
-              "id": "bobcat-2a",
-              "name": "Practice reciting the Scout Oath together as a den."
-            },
-            {
-              "id": "bobcat-2b",
-              "name": "Recite the Scout Oath with your Tiger adult partner."
-            }
+            { "id": "bobcat-2a", "name": "Cub Scout Land", "description": "Cub Scouts play Cub Scout Land to learn about each other, the Scout Oath, the Scout Law, and other fundamentals of the Cub Scout program." },
+            { "id": "bobcat-2b", "name": "Tiger Chatterbox", "description": "Fold a piece of paper into a chatterbox/fortune teller to introduce the Scout Oath to your Cub Scout." },
+            { "id": "bobcat-2c", "name": "Tiger Oath and Law Puzzle", "description": "Introduce the Scout Oath to Cub Scouts by making a puzzle out of popsicle sticks." }
           ]
         },
         {
           "number": 3,
           "text": "Have your Tiger adult partner or den leader read the Scout Law to you. Demonstrate your understanding of being trustworthy, helpful, or friendly.",
           "activities": [
-            {
-              "id": "bobcat-3a",
-              "name": "Listen as the Scout Law is read, then talk about what 'trustworthy,' 'helpful,' or 'friendly' means."
-            },
-            {
-              "id": "bobcat-3b",
-              "name": "Share a time you were trustworthy, helpful, or friendly."
-            }
+            { "id": "bobcat-3a", "name": "Don't Wake the Dragon", "description": "In this game, Cub Scouts have to work together and demonstrate being trustworthy, helpful, and friendly." },
+            { "id": "bobcat-3b", "name": "Tiger Maze", "description": "Cub Scouts help their adult partner navigate a maze." },
+            { "id": "bobcat-3c", "name": "Tiger Scout Law Bingo", "description": "Use a bingo card to act out values of the Scout Law." }
           ]
         },
         {
           "number": 4,
           "text": "Demonstrate the Cub Scout sign, Cub Scout salute and Cub Scout handshake. Show how each are used.",
           "activities": [
-            {
-              "id": "bobcat-4a",
-              "name": "Learn and practice the Cub Scout sign, salute, and handshake."
-            },
-            {
-              "id": "bobcat-4b",
-              "name": "Show when each is used during a den meeting."
-            }
+            { "id": "bobcat-4a", "name": "If You Are Happy Show the Cub Scout Sign", "description": "Sing the interactive song \"If you are happy and you know it\" using the Cub Scout sign, handshake, and salute as the actions." },
+            { "id": "bobcat-4b", "name": "Sign, Salute, and Handshake Relay", "description": "Use a relay race to get Cub Scouts moving and learning the Cub Scout sign, salute, and handshake." },
+            { "id": "bobcat-4c", "name": "Tiger Simon Says", "description": "Play a game of Simon Says using the actions of the Cub Scout sign, salute, and handshake." }
           ]
         },
         {
           "number": 5,
-          "text": "Share with your Tiger adult partner, at a den meeting or at home, a time when you have demonstrated the Cub Scout motto 'Do Your Best.'",
+          "text": "Share with your Tiger adult partner, at a den meeting or at home, a time when you have demonstrated the Cub Scout motto \"Do Your Best.\"",
           "activities": [
-            {
-              "id": "bobcat-5a",
-              "name": "Tell your den or family about a time you did your best."
-            },
-            {
-              "id": "bobcat-5b",
-              "name": "Share an example of 'Do Your Best' at home with your Tiger adult partner."
-            }
+            { "id": "bobcat-5a", "name": "Do Your Best Handbook Activity", "description": "This activity is in the Tiger handbook where Cub Scouts will identify actions that demonstrate the Cub Scout motto \"Do Your Best.\"" },
+            { "id": "bobcat-5b", "name": "Do Your Best Handbook Sharing", "description": "Cub Scouts share with their adult partner a time when they did their best." }
           ]
         },
         {
           "number": 6,
-          "text": "At home, with your parent or legal guardian do the activities in the booklet 'How to Protect Your Children from Child Abuse: A Parent's Guide.'",
+          "text": "At home, with your parent or legal guardian do the activities in the booklet \"How to Protect Your Children from Child Abuse: A Parent's Guide.\"",
           "activities": [
-            {
-              "id": "bobcat-6a",
-              "name": "Complete the activities in the parent's guide booklet at home with your parent or guardian."
-            },
-            {
-              "id": "bobcat-6b",
-              "name": "Talk with your family about what you learned from the booklet."
-            }
+            { "id": "bobcat-6a", "name": "Child Abuse Protection Review Tiger", "description": "Review the activities in the booklet \"How to Protect Your Children from Child Abuse: A Parent's Guide.\"" }
           ]
         }
       ]
@@ -106,70 +71,46 @@
       "name": "Tiger Bites",
       "type": "required",
       "category": "Personal Fitness",
-      "description": "Discover how eating right and being active helps you grow strong.",
+      "description": "In this Adventure, Tigers will explore the different food groups, have fun being active, and the importance of rest.",
       "prerequisites": [
         "Bobcat rank"
       ],
-      "materials": [
-        "Tiger Handbook",
-        "Paper plates",
-        "Markers"
-      ],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Talk about what happens when you don't eat right.",
+          "text": "Identify the 5 different food groups.",
           "activities": [
-            {
-              "id": "tiger-bites-1a",
-              "name": "Discuss how you feel when you eat junk food versus healthy food."
-            },
-            {
-              "id": "tiger-bites-1b",
-              "name": "Make a list of healthy snacks."
-            }
+            { "id": "tiger-bites-1a", "name": "Food Group Tiger Relay", "description": "Relay race to identify food items and the food group they belong to." },
+            { "id": "tiger-bites-1b", "name": "My Favorite Foods", "description": "Cub Scouts draw their favorite food for each of the five good groups." },
+            { "id": "tiger-bites-1c", "name": "My Favorite Snack", "description": "Cub Scouts bring and share their favorite food from one of the five food groups." }
           ]
         },
         {
           "number": 2,
-          "text": "Learn why fruits and vegetables are important.",
+          "text": "Practice hand washing. Point out when you should wash your hands.",
           "activities": [
-            {
-              "id": "tiger-bites-2a",
-              "name": "Taste test different fruits and vegetables."
-            },
-            {
-              "id": "tiger-bites-2b",
-              "name": "Create a healthy plate using food groups."
-            }
+            { "id": "tiger-bites-2a", "name": "Scout Oath and Law Hand Washing", "description": "Proper handwashing and learning how long it takes to do a good job." },
+            { "id": "tiger-bites-2b", "name": "Super Clean Hands! Worksheet", "description": "Cub Scouts learn about when and how they should wash their hands using a worksheet." },
+            { "id": "tiger-bites-2c", "name": "When Should I Wash My Hands Game", "description": "Cub Scouts learn about when they should wash their hands in this active game." }
           ]
         },
         {
           "number": 3,
-          "text": "Play a game that helps you learn about healthy eating.",
+          "text": "Be active for 30 minutes.",
           "activities": [
-            {
-              "id": "tiger-bites-3a",
-              "name": "Play 'Healthy Foods Bingo.'"
-            },
-            {
-              "id": "tiger-bites-3b",
-              "name": "Make a fruit and vegetable crossword puzzle."
-            }
+            { "id": "tiger-bites-3a", "name": "Tiger Obstacle Course", "description": "Obstacle Course." },
+            { "id": "tiger-bites-3b", "name": "Tiger Red Light Green Light", "description": "Play Red Light / Green Light." },
+            { "id": "tiger-bites-3c", "name": "Tiger Soccer", "description": "Play Soccer with the Den." }
           ]
         },
         {
           "number": 4,
-          "text": "Show how you can be active every day.",
+          "text": "Practice methods that help you sleep.",
           "activities": [
-            {
-              "id": "tiger-bites-4a",
-              "name": "Demonstrate three ways to stay active."
-            },
-            {
-              "id": "tiger-bites-4b",
-              "name": "Create a daily activity plan with your family."
-            }
+            { "id": "tiger-bites-4a", "name": "Sleep Like a Star! Worksheet", "description": "Cub Scouts learn about how to get the best rest using a worksheet." },
+            { "id": "tiger-bites-4b", "name": "Tiger Get Ready for Bed", "description": "Make a bedtime routine to help get enough sleep using the activity in the Tiger handbook." },
+            { "id": "tiger-bites-4c", "name": "Tiger Time to Sleep", "description": "Cub Scouts with their parent or legal guardian establish a good bedtime." }
           ]
         }
       ]
@@ -178,129 +119,89 @@
       "id": "tigers-roar",
       "name": "Tiger's Roar",
       "type": "required",
-      "category": "Communication",
-      "description": "Use your voice and body to express yourself through stories, songs, and games.",
+      "category": "Personal Safety",
+      "description": "In partnership with the Barbara Sinatra Children's Center Foundation, Tigers will learn about the \"Protect Yourself Rules\" and other skills needed to stay safe.",
       "prerequisites": [
-        "Tiger Bites"
+        "Bobcat rank"
       ],
-      "materials": [
-        "Tiger Handbook",
-        "Props for storytelling"
-      ],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Tell a story using your voice and actions.",
+          "text": "With permission from your parent or legal guardian watch the Protect Yourself Rules video for the Tiger rank.",
           "activities": [
-            {
-              "id": "tigers-roar-1a",
-              "name": "Practice telling a short story to your den."
-            },
-            {
-              "id": "tigers-roar-1b",
-              "name": "Use different voices and gestures while storytelling."
-            }
+            { "id": "tigers-roar-1a", "name": "Protect Yourself Rules Video Tiger", "description": "Watch the Protect Yourself Rules video with your parent or legal guardian." }
           ]
         },
         {
           "number": 2,
-          "text": "Learn a song and perform it for your den or family.",
+          "text": "With your Tiger adult partner, demonstrate Shout, Run, Tell as explained in the Protect Yourself Rules video.",
           "activities": [
-            {
-              "id": "tigers-roar-2a",
-              "name": "Learn a Tiger den song."
-            },
-            {
-              "id": "tigers-roar-2b",
-              "name": "Sing the song at a pack meeting."
-            }
+            { "id": "tigers-roar-2a", "name": "Police Officer Visit", "description": "Cub Scouts learn about personal safety from a police officer." },
+            { "id": "tigers-roar-2b", "name": "Shout Run and Tell Worksheet", "description": "Tigers will complete a shout Run Tell worksheet." },
+            { "id": "tigers-roar-2c", "name": "Shout, Run, Tell Relay", "description": "A relay race where Cub Scouts will demonstrate Shout, Run, Tell." }
           ]
         },
         {
           "number": 3,
-          "text": "Play a game where you listen and respond to directions.",
+          "text": "With your Tiger adult partner, demonstrate how to access emergency services.",
           "activities": [
-            {
-              "id": "tigers-roar-3a",
-              "name": "Play a listening game like 'Simon Says.'"
-            },
-            {
-              "id": "tigers-roar-3b",
-              "name": "Practice following group directions quickly."
-            }
+            { "id": "tigers-roar-3a", "name": "Emergency Services 911 Relay Race", "description": "Emergency Services 911 Safety Relay." },
+            { "id": "tigers-roar-3b", "name": "Smart Phone Emergency Services", "description": "Teach Cub Scouts how to use a smart phone to reach emergency services (911)." },
+            { "id": "tigers-roar-3c", "name": "Voice Activated Devices Emergency Services", "description": "Teach your Cub Scout how to use your home voice-activated devices to contact emergency services." }
           ]
         },
         {
           "number": 4,
-          "text": "Talk about how you feel and why.",
+          "text": "With your Tiger adult partner, demonstrate that you know what to do if you get lost or separated.",
           "activities": [
-            {
-              "id": "tigers-roar-4a",
-              "name": "Share how you felt about a recent activity."
-            },
-            {
-              "id": "tigers-roar-4b",
-              "name": "Practice using words to describe emotions."
-            }
+            { "id": "tigers-roar-4a", "name": "Emergency Whistle Testing", "description": "Cub Scouts will blow whistles and demonstrate how to use the whistle if they get lost." },
+            { "id": "tigers-roar-4b", "name": "Hide and Seek", "description": "A twist on hide and seek where after 5 minutes Cub Scouts use methods learned to be found." },
+            { "id": "tigers-roar-4c", "name": "Pinewood Derby® Driver's License", "description": "Cub Scouts create a Pinewood Derby® driver's license that doubles as an ID card." }
           ]
         }
       ]
     },
     {
-      "id": "tigers-circles",
+      "id": "tiger-circles",
       "name": "Tiger Circles",
       "type": "required",
-      "category": "Science and Technology",
-      "description": "Explore the world around you through observation, experiments, and discovery.",
+      "category": "Family & Reverence",
+      "description": "In this Adventure, the Tigers learn about their family by exploring the faith traditions and celebrations that make being part of their family special. Tigers may earn this Adventure by completing the requirements OR by earning the religious emblem of their choosing.",
       "prerequisites": [
-        "Tiger's Roar"
+        "Bobcat rank"
       ],
-      "materials": [
-        "Tiger Handbook",
-        "Magnifying glass",
-        "Nature items"
-      ],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Observe something in nature and describe what you see.",
+          "text": "With your parent or legal guardian talk about your family's faith traditions. Identify three holidays or celebrations that are part of your family's faith traditions. Draw a picture of your favorite family's faith tradition holiday or celebration.",
           "activities": [
-            {
-              "id": "tigers-circles-1a",
-              "name": "Go on a nature walk and observe plants or animals."
-            },
-            {
-              "id": "tigers-circles-1b",
-              "name": "Draw or write about what you observed."
-            }
+            { "id": "tiger-circles-1a", "name": "My Family Celebrations", "description": "Cub Scouts will identify three celebrations that match their family creating a My Family Celebrations sheet." },
+            { "id": "tiger-circles-1b", "name": "My Family Traditions Worksheet", "description": "Students will learn about their family's faith traditions by identifying three celebrations and illustrating their favorite." },
+            { "id": "tiger-circles-1c", "name": "Tiger Circles Passport", "description": "Complete the Family and Reverence activities at home with your family." },
+            { "id": "tiger-circles-1d", "name": "Tiger Holiday Drawing", "description": "Draw and color a favorite faith tradition holiday or celebration." },
+            { "id": "tiger-circles-1e", "name": "Tree of Reverence – Tiger", "description": "This activity will set a calm and reflective tone as Cub Scouts and their families arrive for the Reverence Adventure. It encourages participants to think about and express what reverence means to them in a creative way." }
           ]
         },
         {
           "number": 2,
-          "text": "Do a simple science experiment.",
+          "text": "With your family, attend a religious service OR other gathering that shows how your family expresses Family & Reverence.",
           "activities": [
-            {
-              "id": "tigers-circles-2a",
-              "name": "Perform a simple experiment like baking soda and vinegar."
-            },
-            {
-              "id": "tigers-circles-2b",
-              "name": "Discuss what happened and why."
-            }
+            { "id": "tiger-circles-2a", "name": "Tiger Circles Passport", "description": "Complete the Family and Reverence activities at home with your family." },
+            { "id": "tiger-circles-2b", "name": "Tiger Religious Celebration", "description": "Cub Scouts attend a religious celebration with their family." },
+            { "id": "tiger-circles-2c", "name": "Tiger Religious Service", "description": "Attend a religious service with your family." },
+            { "id": "tiger-circles-2d", "name": "Tiger Veterans Day", "description": "Attend a Veterans Day event with your den." }
           ]
         },
         {
           "number": 3,
-          "text": "Learn about one way technology helps people.",
+          "text": "Carry out an act of kindness.",
           "activities": [
-            {
-              "id": "tigers-circles-3a",
-              "name": "Talk about a piece of technology your family uses."
-            },
-            {
-              "id": "tigers-circles-3b",
-              "name": "Discuss how technology has changed over time."
-            }
+            { "id": "tiger-circles-3a", "name": "Tiger A Note of Kindness", "description": "Make a card of kindness to give to someone special." },
+            { "id": "tiger-circles-3b", "name": "Tiger Be Kind at Home", "description": "Cub Scouts perform an act of kindness at home." },
+            { "id": "tiger-circles-3c", "name": "Tiger Be Kind at School", "description": "Cub Scouts show kindness at school by inviting someone who is alone to join them." },
+            { "id": "tiger-circles-3d", "name": "Tiger Circles Passport", "description": "Complete the Family and Reverence activities at home with your family." }
           ]
         }
       ]
@@ -309,70 +210,48 @@
       "id": "team-tiger",
       "name": "Team Tiger",
       "type": "required",
-      "category": "Family and Friends",
-      "description": "Work together with your den and family to accomplish goals and have fun.",
+      "category": "Citizenship",
+      "description": "Citizenship is one of the four aims of the Scouting America program. For Tigers citizenship begins at home and their den. They will explore how they can contribute to their home and community.",
       "prerequisites": [
-        "Tiger Circles"
+        "Bobcat rank"
       ],
-      "materials": [
-        "Tiger Handbook",
-        "Team activity supplies"
-      ],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Work as a team to complete a project.",
+          "text": "Play a game with your den, or family members, that has a set of rules. Discuss why rules are important to the game you are playing.",
           "activities": [
-            {
-              "id": "team-tiger-1a",
-              "name": "Build something together as a den."
-            },
-            {
-              "id": "team-tiger-1b",
-              "name": "Cooperate on a group art project."
-            }
+            { "id": "team-tiger-1a", "name": "Card Game – Go Fish", "description": "Play a game of Go Fish!" },
+            { "id": "team-tiger-1b", "name": "Tigers Play Cornhole", "description": "Play a game of cornhole." },
+            { "id": "team-tiger-1c", "name": "Tigers Play Kickball", "description": "Play a game of kickball." }
           ]
         },
         {
           "number": 2,
-          "text": "Help someone in your den with a task.",
+          "text": "With your Tiger Adult Partner, choose a job that will help your team. Follow through by doing that job at least once.",
           "activities": [
-            {
-              "id": "team-tiger-2a",
-              "name": "Assist a fellow Tiger with a skill."
-            },
-            {
-              "id": "team-tiger-2b",
-              "name": "Practice being a team player."
-            }
+            { "id": "team-tiger-2a", "name": "Tiger Flag Ceremony", "description": "Participate in a flag-raising ceremony for your school." },
+            { "id": "team-tiger-2b", "name": "Tiger Greeter", "description": "Tiger den serve as greeters for the pack meeting." },
+            { "id": "team-tiger-2c", "name": "Tigers Help Clean Up", "description": "Help set up and clean up for a pack meeting." }
           ]
         },
         {
           "number": 3,
-          "text": "Play a game that requires teamwork.",
+          "text": "Play a game that requires at least 2 teams with your den, or two other family members. Afterwards discuss what it means to be part of a team and what makes a good team member.",
           "activities": [
-            {
-              "id": "team-tiger-3a",
-              "name": "Play a team-building game like a relay race."
-            },
-            {
-              "id": "team-tiger-3b",
-              "name": "Work together to solve a puzzle."
-            }
+            { "id": "team-tiger-3a", "name": "Tiger Charades", "description": "Play a game of charades with your den." },
+            { "id": "team-tiger-3b", "name": "Tiger Volleyball", "description": "Play a game of Tiger Volleyball." },
+            { "id": "team-tiger-3c", "name": "Tiger Wiffle Ball", "description": "Play a game of wiffle ball with the den." }
           ]
         },
         {
           "number": 4,
-          "text": "Talk about what makes a good team member.",
+          "text": "Participate in a service project.",
           "activities": [
-            {
-              "id": "team-tiger-4a",
-              "name": "Discuss qualities of a good team player."
-            },
-            {
-              "id": "team-tiger-4b",
-              "name": "Share examples of good teamwork from your den."
-            }
+            { "id": "team-tiger-4a", "name": "10,000 for the Troops – Tiger", "description": "Cub Scouts participate in a special nation-wide project to create holiday cards for military personnel." },
+            { "id": "team-tiger-4b", "name": "Board Game Collection", "description": "Collect game boards for a community center." },
+            { "id": "team-tiger-4c", "name": "Sock Drive", "description": "Sock drive service project." },
+            { "id": "team-tiger-4d", "name": "Tiger Scouting for Food", "description": "Participate in your Council-sponsored Scouting for Food event." }
           ]
         }
       ]
@@ -381,85 +260,57 @@
       "id": "tigers-in-the-wild",
       "name": "Tigers in the Wild",
       "type": "required",
-      "category": "The World Around Us",
-      "description": "Learn about the world outside \u2014 animals, plants, and how to protect the environment.",
+      "category": "Outdoors",
+      "description": "Tigers and adult partners will take a walk to explore the outdoors. Along the way, they can learn about domesticated and wild animals.",
       "prerequisites": [
-        "Team Tiger"
+        "Bobcat rank"
       ],
-      "materials": [
-        "Tiger Handbook",
-        "Field guide",
-        "Journal"
-      ],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn about three animals that live in the wild.",
+          "text": "Identify the Cub Scout Six Essentials. Show what you do with each item.",
           "activities": [
-            {
-              "id": "tigers-in-the-wild-1a",
-              "name": "Research three wild animals."
-            },
-            {
-              "id": "tigers-in-the-wild-1b",
-              "name": "Draw or describe each animal and its habitat."
-            }
+            { "id": "tigers-in-the-wild-1a", "name": "Grab the Six Essentials", "description": "Relay race for Cub Scouts to identify the Cub Scout Six Essentials." },
+            { "id": "tigers-in-the-wild-1b", "name": "Is It a Cub Scout Essential?", "description": "Cub Scouts pick out the Cub Scout six essentials from mix of outdoor equipment." },
+            { "id": "tigers-in-the-wild-1c", "name": "Outdoor Code in a Flash", "description": "Flash card activity to introduce Cub Scouts to the Outdoor Code." }
           ]
         },
         {
           "number": 2,
-          "text": "Visit a place in nature and observe it.",
+          "text": "With your den leader or Tiger adult partner, learn about the Outdoor Code.",
           "activities": [
-            {
-              "id": "tigers-in-the-wild-2a",
-              "name": "Visit a park, zoo, or nature center."
-            },
-            {
-              "id": "tigers-in-the-wild-2b",
-              "name": "Write or draw about your observations."
-            }
+            { "id": "tigers-in-the-wild-2a", "name": "Outdoor Code Puzzle", "description": "Cub Scouts use their Tiger handbook to create an Outdoor Code puzzle." },
+            { "id": "tigers-in-the-wild-2b", "name": "Sing the Outdoor Code", "description": "Cub Scouts will learn about the Outdoor Code by singing the Outdoor Code Song." },
+            { "id": "tigers-in-the-wild-2c", "name": "The Four C's of the Outdoor Code", "description": "The four C's is a method of introducing the Outdoor Code." }
           ]
         },
         {
           "number": 3,
-          "text": "Learn how to protect plants and animals.",
+          "text": "With your den, pack, or family, take a walk outside spending for at least 20 minutes exploring the outdoors with your Cub Scout Six Essentials. While outside, identify things that you see with your Tiger adult partner that are natural and things that are manmade.",
           "activities": [
-            {
-              "id": "tigers-in-the-wild-3a",
-              "name": "Discuss ways to help the environment."
-            },
-            {
-              "id": "tigers-in-the-wild-3b",
-              "name": "Create a simple plan to help protect nature."
-            }
+            { "id": "tigers-in-the-wild-3a", "name": "5 Step Seek", "description": "Adult partners give a clue to something they see outside as Cub Scouts guess what it is and if it is natural or manmade." },
+            { "id": "tigers-in-the-wild-3b", "name": "I Spy Natural or Manmade", "description": "A game of I Spy that includes objects that are natural or manmade." },
+            { "id": "tigers-in-the-wild-3c", "name": "Natural or Manmade by the Numbers", "description": "Cub Scouts and adult partners work together to identify as many things they can that are natural and manmade." }
           ]
         },
         {
           "number": 4,
-          "text": "Learn about one plant that grows in your area.",
+          "text": "Identify common animals that are found where you live. Learn which of those animals is domesticated and which animal is wild. Draw a picture of your favorite animal.",
           "activities": [
-            {
-              "id": "tigers-in-the-wild-4a",
-              "name": "Identify a local plant."
-            },
-            {
-              "id": "tigers-in-the-wild-4b",
-              "name": "Learn about why it's important to the local ecosystem."
-            }
+            { "id": "tigers-in-the-wild-4a", "name": "Animals I know", "description": "Cub Scouts identify animals they have seen and identify if they are wild or domestic." },
+            { "id": "tigers-in-the-wild-4b", "name": "My Favorite Animals", "description": "Cub Scouts draw their favorite domesticated and wild animal." },
+            { "id": "tigers-in-the-wild-4c", "name": "Stuffed Animal Relay Race", "description": "Using stuffed animals Cub Scouts identify if the animal is wild or domesticated." },
+            { "id": "tigers-in-the-wild-4d", "name": "Wild or Domestic Sorting Game", "description": "Cub Scouts will sort animal cards into a Venn diagram, distinguishing between wild, domestic, or both. Then, they will draw their favorite animal." }
           ]
         },
         {
           "number": 5,
-          "text": "Talk about how you can help take care of the Earth.",
+          "text": "Look for a tree where you live. Describe how this tree is helpful.",
           "activities": [
-            {
-              "id": "tigers-in-the-wild-5a",
-              "name": "Share one way you can help the environment."
-            },
-            {
-              "id": "tigers-in-the-wild-5b",
-              "name": "Create a personal 'help the Earth' pledge."
-            }
+            { "id": "tigers-in-the-wild-5a", "name": "Leaf and Bark Rubbing", "description": "Make a leaf and bark rubbing of a tree." },
+            { "id": "tigers-in-the-wild-5b", "name": "Pinecone Bird Feeder", "description": "Make a pinecone bird feeder and place it in a tree." },
+            { "id": "tigers-in-the-wild-5c", "name": "Tiger Tree Planting", "description": "Plant a tree." }
           ]
         }
       ]
@@ -469,69 +320,178 @@
       "name": "Champions for Nature",
       "type": "optional",
       "category": "Nature & Environment",
-      "description": "Learn how to protect the environment and care for plants, animals, and the world around you.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Paper and crayons"
-      ],
+      "description": "As part of the World Organization of the Scouting Movement, this program is part of a global effort to teach youth about the conservation of natural resources. This includes participating in a service project.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn about animals in your area and how to respect their homes.",
+          "text": "Discover the difference between renewable natural resources and non-renewable natural resources.",
           "activities": [
-            {
-              "id": "champions-for-nature-1a",
-              "name": "Talk about local animals and where they live."
-            },
-            {
-              "id": "champions-for-nature-1b",
-              "name": "Share how you can keep animal homes safe."
-            }
+            { "id": "champions-for-nature-1a", "name": "Identify Renewable and Non-renewable", "description": "Identify pictures of items that are renewable resources and non-renewable resources." },
+            { "id": "champions-for-nature-1b", "name": "Renewable Resource Walk", "description": "Walk outside and point out items that are made from or use renewable resources and things that are made from or use non-renewable resources." },
+            { "id": "champions-for-nature-1c", "name": "Renewable Show and Tell", "description": "Cub Scouts bring everyday items from home and the den will sort them as made from renewable or non-renewable resources." }
           ]
         },
         {
           "number": 2,
-          "text": "Learn how to reduce, reuse, and recycle.",
+          "text": "Learn about the 3 R's: Reduce, Reuse, Recycle.",
           "activities": [
-            {
-              "id": "champions-for-nature-2a",
-              "name": "Sort items into reduce, reuse, and recycle."
-            },
-            {
-              "id": "champions-for-nature-2b",
-              "name": "Make something new from recycled materials."
-            }
+            { "id": "champions-for-nature-2a", "name": "Reduce, Reuse, or Recycle?", "description": "Play a guessing game of items that can be recycled, reused, or reduced." },
+            { "id": "champions-for-nature-2b", "name": "Solar Powered S'more Oven", "description": "Reduce the use of electricity by making a solar powered oven." },
+            { "id": "champions-for-nature-2c", "name": "The 3 R's of Our Den Meeting Space", "description": "Take a walk around your den meeting location and point out what items can be recycled, reused, and/or reduced." }
           ]
         },
         {
           "number": 3,
-          "text": "Discover ways to save water and energy at home.",
+          "text": "Discover what happens to the garbage in your community.",
           "activities": [
-            {
-              "id": "champions-for-nature-3a",
-              "name": "Find ways your family can save water."
-            },
-            {
-              "id": "champions-for-nature-3b",
-              "name": "Learn how turning off lights saves energy."
-            }
+            { "id": "champions-for-nature-3a", "name": "Den Outing to Waste Management", "description": "Den outing to a waste management facility." },
+            { "id": "champions-for-nature-3b", "name": "The Journey of a Piece of Garbage", "description": "Cub Scouts will learn about the journey a piece of garbage takes and then act it out in a skit." }
           ]
         },
         {
           "number": 4,
-          "text": "Take part in an activity that helps nature.",
+          "text": "Participate in a conservation project.",
           "activities": [
-            {
-              "id": "champions-for-nature-4a",
-              "name": "Plant a seed or care for a plant."
-            },
-            {
-              "id": "champions-for-nature-4b",
-              "name": "Pick up litter in your neighborhood."
-            }
+            { "id": "champions-for-nature-4a", "name": "Clean Waterways", "description": "A nationwide initiative aimed at addressing the critical issue of waterway and marine debris, offering Scouts the opportunity to make a meaningful impact on the health of our waterways and ecosystems." },
+            { "id": "champions-for-nature-4b", "name": "Clothing Drive – Reuse", "description": "Conduct a clothing drive for a local charity." },
+            { "id": "champions-for-nature-4c", "name": "Plant It and the Butterflies will Come", "description": "Plant a butterfly garden." },
+            { "id": "champions-for-nature-4d", "name": "Plastic Bottle Planter – Reuse", "description": "Turn a plastic bottle into an indoor planter." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosity-intrigue-magical-mysteries",
+      "name": "Curiosity, Intrigue, and Magical Mysteries",
+      "type": "optional",
+      "category": "Imagination & Creativity",
+      "description": "A fun Adventure where Tigers learn how to perform a magic trick and create a secret code.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn a magic trick. Practice the trick. Share the trick with you den or family members.",
+          "activities": [
+            { "id": "curiosity-intrigue-magical-mysteries-1a", "name": "Coin Through a Neckerchief", "description": "Pass a coin magically though your Tiger neckerchief." },
+            { "id": "curiosity-intrigue-magical-mysteries-1b", "name": "Cub Scout Magic Book", "description": "Use the Cub Scout Magic book to identify a trick for Cub Scouts to learn and perform." },
+            { "id": "curiosity-intrigue-magical-mysteries-1c", "name": "The Disappearing Knot", "description": "Tie a knot that disappears." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Demonstrate how a magic trick works to your den, family or Tiger adult partner.",
+          "activities": [
+            { "id": "curiosity-intrigue-magical-mysteries-2a", "name": "Magic Show", "description": "Using the magic trick learned in requirement 1, conduct a magic show." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Write your name in secret code.",
+          "activities": [
+            { "id": "curiosity-intrigue-magical-mysteries-3a", "name": "Computer Name", "description": "Use binary to spell your name." },
+            { "id": "curiosity-intrigue-magical-mysteries-3b", "name": "My Secret Code Part 1", "description": "Cub Scouts will create their own unique secret code." },
+            { "id": "curiosity-intrigue-magical-mysteries-3c", "name": "Pig Pen Code", "description": "Using the Pig Pen Code write your name." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Write a message with the code. Challenge your den, family or Tiger adult partner to read your coded message.",
+          "activities": [
+            { "id": "curiosity-intrigue-magical-mysteries-4a", "name": "My Secret Code Part 2", "description": "Using the secret code created in the activity My Secret Code Part 1 write a message and have Tiger adult partners decode the message." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "designed-by-tiger",
+      "name": "Designed by Tiger",
+      "type": "optional",
+      "category": "Science & Technology",
+      "description": "Tigers will discover the fundamentals of the engineering process of designing, building, and improving.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Think about something that you would like to build. Draw a picture of what the final project should look like.",
+          "activities": [
+            { "id": "designed-by-tiger-1a", "name": "My Project Plan Drawing", "description": "Draw something that you are going to build before you build it." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Using your drawing as a guide, build the project.",
+          "activities": [
+            { "id": "designed-by-tiger-2a", "name": "Crossing the River", "description": "Cub Scouts build a model of something that will help the den cross a river." },
+            { "id": "designed-by-tiger-2b", "name": "Cub Scout Land", "description": "Make a model of an amusement park ride." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "When completed, discuss with your Tiger adult partner what could be done to improve your project.",
+          "activities": [
+            { "id": "designed-by-tiger-3a", "name": "Room For Improvement", "description": "Identify ways that your project could be improved." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Make the improvement to your project.",
+          "activities": [
+            { "id": "designed-by-tiger-4a", "name": "Making it Better", "description": "Make improvement on the model made in requirement 2 based on feedback from the den." }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Make a drawing of your final project.",
+          "activities": [
+            { "id": "designed-by-tiger-5a", "name": "Comparing Start to Finish", "description": "Compare the original drawing to the final project model." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-on",
+      "name": "Fish On",
+      "type": "optional",
+      "category": "Outdoors",
+      "description": "With their family or den and adult partner, Tigers will learn the basics of fishing and go on a fishing adventure.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "With your den or Tiger adult partner, identify the body of water where you will go fishing.",
+          "activities": [
+            { "id": "fish-on-1a", "name": "Department of Natural Resources Visit", "description": "Cub Scouts will meet with a representative from the local Department of Natural Resources." },
+            { "id": "fish-on-1b", "name": "Flashy Fish Homes", "description": "Use flashcards to identify local fish." },
+            { "id": "fish-on-1c", "name": "Our Fishing Spot", "description": "Using a local map identify the spot where you will go fishing and the fish that live in that body of water." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "With your Tiger adult partner, learn the rules of fishing safely.",
+          "activities": [
+            { "id": "fish-on-2a", "name": "Dry Run Fishing", "description": "Using fishing poles, practice the fishing rules before going on the fishing adventure." },
+            { "id": "fish-on-2b", "name": "Fishing Safety Match", "description": "Learn the fishing safety rules by completing the activity in the Tiger handbook." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Draw a picture of the type of fish you think lives in the water where you are going fishing.",
+          "activities": [
+            { "id": "fish-on-3a", "name": "Color a Fish", "description": "Cub Scouts will learn about local fish species as they color." },
+            { "id": "fish-on-3b", "name": "Craft a Fish", "description": "Cub Scouts will craft a realistic fish out of recyclable materials." },
+            { "id": "fish-on-3c", "name": "Scales and Sketches", "description": "Using the Tiger handbook draw two fish that live in the water you are going fishing." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Go fishing with your Tiger adult partner.",
+          "activities": [
+            { "id": "fish-on-4a", "name": "Fish On!", "description": "Go fishing with your den." }
           ]
         }
       ]
@@ -541,59 +501,42 @@
       "name": "Floats and Boats",
       "type": "optional",
       "category": "Science & Technology",
-      "description": "Explore why things float and build your own simple boat.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Foam trays",
-        "Milk cartons",
-        "Straws",
-        "Paper",
-        "A tub of water"
-      ],
+      "description": "Discovering what floats and how to make a model boat are the key activities in this Adventure.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn what makes things float or sink.",
+          "text": "Identify five different types of boats.",
           "activities": [
-            {
-              "id": "floats-and-boats-1a",
-              "name": "Test different objects in water to see if they float or sink."
-            },
-            {
-              "id": "floats-and-boats-1b",
-              "name": "Talk about why some things float."
-            }
+            { "id": "floats-and-boats-1a", "name": "Color the Boats", "description": "Color the boats in the Tiger handbook." },
+            { "id": "floats-and-boats-1b", "name": "Model Boats", "description": "Identify different types of boats using models." },
+            { "id": "floats-and-boats-1c", "name": "Visit a Marina", "description": "See real boats by visiting a marina." }
           ]
         },
         {
           "number": 2,
-          "text": "Build a simple boat that floats.",
+          "text": "Identify five things that float and five things that do not float.",
           "activities": [
-            {
-              "id": "floats-and-boats-2a",
-              "name": "Build a boat from foam or a milk carton."
-            },
-            {
-              "id": "floats-and-boats-2b",
-              "name": "Test your boat in a tub of water."
-            }
+            { "id": "floats-and-boats-2a", "name": "Floating or Sinking?", "description": "In a tub discover things that float and things that do not." }
           ]
         },
         {
           "number": 3,
-          "text": "Learn about boats and people who use them.",
+          "text": "Build or create a model boat and float it on the water. This can be made from recycled materials or other items.",
           "activities": [
-            {
-              "id": "floats-and-boats-3a",
-              "name": "Name different kinds of boats."
-            },
-            {
-              "id": "floats-and-boats-3b",
-              "name": "Talk about how boats help people."
-            }
+            { "id": "floats-and-boats-3a", "name": "Crafty Boat", "description": "Make a model boat from recycled and craft supplies." },
+            { "id": "floats-and-boats-3b", "name": "Paper Boat", "description": "Fold paper to make a boat using the Tiger handbook." },
+            { "id": "floats-and-boats-3c", "name": "Raingutter Regatta™ Floating Boat", "description": "Make a Raingutter Regatta™ boat." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Show that you can put on and fasten a life jacket correctly and learn when it is safe to enter a boat.",
+          "activities": [
+            { "id": "floats-and-boats-4a", "name": "Captain Says", "description": "Cub Scouts play a game to learn about wearing a life jacket and boating safety." },
+            { "id": "floats-and-boats-4b", "name": "Life Jacket Relay", "description": "Once Cub Scouts learn how to proper fit a life jacket conduct a relay race." },
+            { "id": "floats-and-boats-4c", "name": "Proper Fit – Proper Safety", "description": "Cub Scouts try on a properly fitted life jacket." }
           ]
         }
       ]
@@ -603,58 +546,141 @@
       "name": "Good Knights",
       "type": "optional",
       "category": "Imagination & Creativity",
-      "description": "Use your imagination to become a knight and create a story of courage and kindness.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Cardboard",
-        "Paper towel rolls",
-        "Markers",
-        "Craft supplies"
-      ],
+      "description": "Tigers will have fun making their own shield or coat of arms and even a castle.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn what a knight is and what knights did.",
+          "text": "Discuss with your den or Tiger adult partner what it means to have courteous behavior, how a knight behaves. Tell another Tiger which points of the Scout Law help you to have the same Knightly behavior.",
           "activities": [
-            {
-              "id": "good-knights-1a",
-              "name": "Hear a story about knights and castles."
-            },
-            {
-              "id": "good-knights-1b",
-              "name": "Share one thing knights did long ago."
-            }
+            { "id": "good-knights-1a", "name": "A Knight Says", "description": "Cub Scouts will practice being courteous and kind—like knights—by listening for \"please\" during a fun variation of the game of Simon Says." },
+            { "id": "good-knights-1b", "name": "Courteous Knights", "description": "Cub Scouts will act out acts of being courteous and other points of the Scout Law." },
+            { "id": "good-knights-1c", "name": "Modern Knights", "description": "Have a guest speaker from one of the armed services come to speak about the values and creed of their branch." }
           ]
         },
         {
           "number": 2,
-          "text": "Create your own knight's shield or armor.",
+          "text": "Create a shield that can be for your den or a personal shield.",
           "activities": [
-            {
-              "id": "good-knights-2a",
-              "name": "Make a shield from cardboard."
-            },
-            {
-              "id": "good-knights-2b",
-              "name": "Decorate a helmet or sword from paper towel rolls."
-            }
+            { "id": "good-knights-2a", "name": "Den Shield", "description": "Working together as a den make a den shield." },
+            { "id": "good-knights-2b", "name": "Personal Little Shield", "description": "Make a personal little shield out of plywood and decorate it with paint." },
+            { "id": "good-knights-2c", "name": "Personal Shield", "description": "Cub Scouts make a personal shield from project board." }
           ]
         },
         {
           "number": 3,
-          "text": "Demonstrate the qualities of a good knight.",
+          "text": "Using recycled and other materials, design and build a small castle in your den or at home.",
           "activities": [
-            {
-              "id": "good-knights-3a",
-              "name": "Show courage by trying something new."
-            },
-            {
-              "id": "good-knights-3b",
-              "name": "Show kindness by helping someone."
-            }
+            { "id": "good-knights-3a", "name": "Building Sandcastles", "description": "Use a sandbox for the den to create a den sandcastle." },
+            { "id": "good-knights-3b", "name": "Castle Made of Building Blocks", "description": "Make a castle using modular building blocks such as Legos." },
+            { "id": "good-knights-3c", "name": "Yesterdays Trash is Todays Castle", "description": "Using recycled or reused materials, build a model castle." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Do a Good Turn.",
+          "activities": [
+            { "id": "good-knights-4a", "name": "Knights Do a Good Turn Like Scouts Do", "description": "This is not a service project it is simply a good turn, a good deed for someone else." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lets-camp",
+      "name": "Let's Camp",
+      "type": "optional",
+      "category": "Outdoors",
+      "description": "Here is the opportunity for Tigers and their adult partners to go on an overnight campout.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn about the buddy system and how it works in the outdoors.",
+          "activities": [
+            { "id": "lets-camp-1a", "name": "Back to Back Buddies", "description": "Cub Scout buddies work together to stand up while sitting on the floor back-to-back." },
+            { "id": "lets-camp-1b", "name": "Stay with Your Buddy Challenge", "description": "Cub Scouts will understand and practice the buddy system by staying with a partner during a movement-based activity." },
+            { "id": "lets-camp-1c", "name": "Who is Being A Buddy?", "description": "Using an activity sheet identify who is using the buddy system." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Before going on the overnight campout, discuss what type of weather is expected and what type of clothes you should wear.",
+          "activities": [
+            { "id": "lets-camp-2a", "name": "Dress the Paper Cub Scout", "description": "Cub Scouts will pick the correct outfit for their paper Cub Scout based on the weather." },
+            { "id": "lets-camp-2b", "name": "What is the Weather Like There?", "description": "Cub Scouts look at a weather report for the campout." },
+            { "id": "lets-camp-2c", "name": "What to Wear? What to Wear? When Camping", "description": "Cub Scouts pick out clothes that are appropriate for different types of weather." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Pack up your Cub Scout Six Essentials for the campout.",
+          "activities": [
+            { "id": "lets-camp-3a", "name": "Six Essentials Scavenger Hunt", "description": "Cub Scouts go on a scavenger hunt to collect Cub Scout Six Essentials." },
+            { "id": "lets-camp-3b", "name": "Six Essentials Shopping Spree", "description": "Provide Cub Scouts their own Cub Scout Six Essentials." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Learn a camping skill.",
+          "activities": [
+            { "id": "lets-camp-4a", "name": "Flashlight Tiger Hunt", "description": "Learn about the different flashlight and flashlight etiquette." },
+            { "id": "lets-camp-4b", "name": "My First Knot", "description": "Cub Scouts will learn about the square knot and attempt to tie it." },
+            { "id": "lets-camp-4c", "name": "Tent Time!", "description": "Cub Scout and adult partners will practice setting up a tent." }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Attend a council or district Cub Scout overnight camp or attend a campout with your pack.",
+          "activities": [
+            { "id": "lets-camp-5a", "name": "Council Camping Tiger", "description": "Go camping at your local council camp." },
+            { "id": "lets-camp-5b", "name": "Pack Camping Tiger", "description": "Go camping with your pack." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "race-time",
+      "name": "Race Time",
+      "type": "optional",
+      "category": "Science & Technology",
+      "description": "The most popular events in Cub Scouting are found in this Adventure, the Pinewood Derby® and the Raingutter Regatta™. Tigers and adult partners work together to build and race either a car or boat.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "With your Tiger adult partner, assemble and decorate either a Pinewood Derby® car or a Raingutter Regatta™ boat.",
+          "activities": [
+            { "id": "race-time-1a", "name": "Pinewood Derby® Car Build Day Tiger", "description": "Den or pack provides a build day for Cub Scouts." },
+            { "id": "race-time-1b", "name": "Raingutter Regatta™ Boat Build Day Tiger", "description": "Den or pack provides a build day for Cub Scouts." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Learn the rules of the race for the vehicle chosen in requirement 1.",
+          "activities": [
+            { "id": "race-time-2a", "name": "Race Memory Tiger", "description": "Memory Game using Pinewood Derby® or Raingutter Regatta™ Rules." },
+            { "id": "race-time-2b", "name": "Race Ready Or Not Sorting Game", "description": "Cub Scouts will recognize behaviors that follow race rules by completing a sorting activity." },
+            { "id": "race-time-2c", "name": "Rule or Not a Rule", "description": "Cub Scouts determine if statements are rules or not rules." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Before the race, discuss with your Tiger adult partner how you will demonstrate good sportsmanship during the race.",
+          "activities": [
+            { "id": "race-time-3a", "name": "Act Like a Good Sport Tiger", "description": "Cub Scouts will act out through role playing how to be a good sport during the race." },
+            { "id": "race-time-3b", "name": "My Race Day Promise", "description": "Cub Scouts will plan what they will say to situations on race day." },
+            { "id": "race-time-3c", "name": "Race Pledge", "description": "Cub Scouts will commit to demonstrating sportsmanship." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "With your Tiger adult partner, participate in a Pinewood Derby® or a Raingutter Regatta™.",
+          "activities": [
+            { "id": "race-time-4a", "name": "Pinewood Derby® Race Tiger", "description": "Conduct a Pinewood Derby® car race." },
+            { "id": "race-time-4b", "name": "Raingutter Regatta™ Tiger", "description": "Conduct a Raingutter Regatta™." }
           ]
         }
       ]
@@ -663,59 +689,122 @@
       "id": "rolling-tigers",
       "name": "Rolling Tigers",
       "type": "optional",
-      "category": "Science & Technology",
-      "description": "Learn how wheels and axles work by building a model car.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Box or foam block",
-        "Wooden skewers",
-        "Bottle caps",
-        "Straws"
-      ],
+      "category": "Outdoors",
+      "description": "With their family or den, Tigers learn bike safety and go on a bike ride. Bikes, training wheels, tricycles, and adaptive bikes are welcome.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn how wheels and axles help things move.",
+          "text": "Learn the ABC's of bike gear (air, brakes, chain.)",
           "activities": [
-            {
-              "id": "rolling-tigers-1a",
-              "name": "Look at how wheels are used on toys and vehicles."
-            },
-            {
-              "id": "rolling-tigers-1b",
-              "name": "Explain what an axle does."
-            }
+            { "id": "rolling-tigers-1a", "name": "Talk With A Pro", "description": "A guest speaker who is an expert in cycling demonstrates the ABC's of bike gear." },
+            { "id": "rolling-tigers-1b", "name": "The ABC's of Bike Gear", "description": "Cub Scouts and adult partners will learn about the ABC's of bike gear using an example bike." },
+            { "id": "rolling-tigers-1c", "name": "The ABC's of My Bike", "description": "Using their own bike or one borrowed, Cub Scout and adult partners learn the ABC's of bike gear." }
           ]
         },
         {
           "number": 2,
-          "text": "Build a model car with wheels and an axle.",
+          "text": "With your den or Tiger adult partner, learn about the safety gear you should use while riding a bicycle.",
           "activities": [
-            {
-              "id": "rolling-tigers-2a",
-              "name": "Build a car body from a box or foam block."
-            },
-            {
-              "id": "rolling-tigers-2b",
-              "name": "Add bottle-cap wheels and test that they roll."
-            }
+            { "id": "rolling-tigers-2a", "name": "Ask the Pro", "description": "A guest speaker who is an expert in cycling demonstrates the ABC's of bike safety gear." },
+            { "id": "rolling-tigers-2b", "name": "Check My Bike Gear", "description": "Cub Scouts check their own safety gear." },
+            { "id": "rolling-tigers-2c", "name": "Safe Rider Gear Checklist", "description": "Cub Scouts will create a \"Safe Rider\" by choosing the correct safety gear." }
           ]
         },
         {
           "number": 3,
-          "text": "Race your car and talk about what made it go.",
+          "text": "With your den or Tiger adult partner, learn the safety rules to follow when riding a bicycle.",
           "activities": [
-            {
-              "id": "rolling-tigers-3a",
-              "name": "Race your model car with your den."
-            },
-            {
-              "id": "rolling-tigers-3b",
-              "name": "Talk about what made the car roll well."
-            }
+            { "id": "rolling-tigers-3a", "name": "Chalk It Up Bike Rodeo", "description": "Create a bike safety course using chalk patterns on the ground." },
+            { "id": "rolling-tigers-3b", "name": "Learn from the Pro", "description": "A guest speaker who is an expert in cycling discusses the safety rules to follow when riding a bike." },
+            { "id": "rolling-tigers-3c", "name": "When to Walk and When to Ride", "description": "Review safety rules for bike riding." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "With your den or Tiger adult partner, demonstrate proper hand signals.",
+          "activities": [
+            { "id": "rolling-tigers-4a", "name": "Signals with the Pro", "description": "A guest speaker who is an expert in cycling demonstrates the hand signals to use while riding a bike." },
+            { "id": "rolling-tigers-4b", "name": "Simon Says – Turn Left, Turn Right", "description": "Play Simon Says using the bike hand signals for turning left and turning right." },
+            { "id": "rolling-tigers-4c", "name": "Traffic Light Freeze", "description": "Play a game to practice the hand signals to use while riding a bike." }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "With your Tiger adult partner or family, ride a bike or begin learning how to ride a bike.",
+          "activities": [
+            { "id": "rolling-tigers-5a", "name": "I Want To Ride My Bicycle!", "description": "Take a bike ride with your den." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safe-and-smart",
+      "name": "Safe and Smart",
+      "type": "optional",
+      "category": "Personal Safety",
+      "description": "Tigers will learn about fire safety and other ways to prepare and respond to emergencies.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Memorize your address. Recite it to your Tiger adult partner or den leader.",
+          "activities": [
+            { "id": "safe-and-smart-1a", "name": "BINGO! That is Where I Live", "description": "Cub Scouts learn their address by putting it to the tune of BINGO." },
+            { "id": "safe-and-smart-1b", "name": "In Case of an Emergency", "description": "Tigers will complete an activity with their, name, address, emergency contact number, and 911 to post in their home." },
+            { "id": "safe-and-smart-1c", "name": "Send Me a Letter", "description": "Cub Scouts learn their address so they can mail themselves a letter." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Memorize an emergency contact's phone number. Recite it to your Tiger adult partner or den leader.",
+          "activities": [
+            { "id": "safe-and-smart-2a", "name": "Cheerio My Number", "description": "Using Cheerios, Cub Scouts learn their emergency contact number." },
+            { "id": "safe-and-smart-2b", "name": "Match my Number", "description": "Cub Scouts unscramble numbers written on index cards to make their phone number." },
+            { "id": "safe-and-smart-2c", "name": "Sing a Phone Song", "description": "Cub Scouts learn to memorize their phone number through a song." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Show you can Stop, Drop and Roll.",
+          "activities": [
+            { "id": "safe-and-smart-3a", "name": "Fire Tag", "description": "Cub Scouts practice \"Stop, Drop, and Roll\" while playing a game of tag." },
+            { "id": "safe-and-smart-3b", "name": "Stop Drop and Roll Crown", "description": "Cub Scouts will practice Stop, Drop, and Roll and then color a crown to wear." },
+            { "id": "safe-and-smart-3c", "name": "Stop Drop and Roll Relay", "description": "Cub Scouts learn how to Stop Drop and Roll by playing a relay race." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "With your Tiger adult partner or den leader, create a fire escape plan for your home or den meeting place. Include your outside meet-up spot. Practice the escape route you would take.",
+          "activities": [
+            { "id": "safe-and-smart-4a", "name": "Den Meeting Exit Plan", "description": "The den will work to develop an evacuation plan for their meeting location and identify a meet-up spot." },
+            { "id": "safe-and-smart-4b", "name": "It's Time to Get Out!", "description": "Create an escape route." },
+            { "id": "safe-and-smart-4c", "name": "Stuffed Animal Fire Escape Practice", "description": "Cub Scouts with their adult partners will teach stuffed animals how to escape from a dangerous place in the event of a fire." }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "With your Tiger adult partner, find the location of the smoke detectors in your home or den meeting place. Confirm they are working properly.",
+          "activities": [
+            { "id": "safe-and-smart-5a", "name": "Where There Is Smoke", "description": "Locate smoke detectors in your home." }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "With your Tiger adult partner or den leader, learn why matches and lighters are only for adults.",
+          "activities": [
+            { "id": "safe-and-smart-6a", "name": "Spread Like Wildfire", "description": "The den will learn how fast fire can spread and why starting fires can cause harm." },
+            { "id": "safe-and-smart-6b", "name": "Stop, Don't Touch, Tell an Adult", "description": "Cub Scouts will play a game where they stop, don't touch, and tell an adult if they see matches or a lighter." },
+            { "id": "safe-and-smart-6c", "name": "Visit a Fire Station", "description": "Cub Scouts visit a fire station to learn about why matches and lighters should be used only by responsible adults." }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Visit an emergency responder station or have an emergency responder visit your den.",
+          "activities": [
+            { "id": "safe-and-smart-7a", "name": "Meet Emergency Responders", "description": "Plan a visit to a fire station or other emergency response station." }
           ]
         }
       ]
@@ -725,58 +814,41 @@
       "name": "Sky is the Limit",
       "type": "optional",
       "category": "Science & Technology",
-      "description": "Discover flight and space, and build your own flying toy.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Paper",
-        "Rubber bands",
-        "Straws",
-        "Tape"
-      ],
+      "description": "Astronomy is the focus of this Adventure as Tigers explore the night sky and discover constellations.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn what makes things fly.",
+          "text": "Observe the night sky with your den or Tiger adult partner. Talk about the items you see or might see there.",
           "activities": [
-            {
-              "id": "sky-is-the-limit-1a",
-              "name": "Talk about birds, planes, and rockets."
-            },
-            {
-              "id": "sky-is-the-limit-1b",
-              "name": "Share what you think makes them fly."
-            }
+            { "id": "sky-is-the-limit-1a", "name": "My Night Sky Adventure", "description": "Cub Scouts will observe the night sky and record their observations." },
+            { "id": "sky-is-the-limit-1b", "name": "Night Sky Scavenger Hunt", "description": "Conduct a scavenger hunt of what is in the night sky." },
+            { "id": "sky-is-the-limit-1c", "name": "Visit a Planetarium", "description": "Cub Scouts visit a planetarium to observe the night sky." }
           ]
         },
         {
           "number": 2,
-          "text": "Build and fly a simple flying toy.",
+          "text": "Look at distant objects through a telescope, binoculars, or camera. Show how to focus the device you choose.",
           "activities": [
-            {
-              "id": "sky-is-the-limit-2a",
-              "name": "Make a paper airplane."
-            },
-            {
-              "id": "sky-is-the-limit-2b",
-              "name": "Build a straw-and-rubber-band launcher."
-            }
+            { "id": "sky-is-the-limit-2a", "name": "I Can See the Stars", "description": "The basics of how to use a telescope." }
           ]
         },
         {
           "number": 3,
-          "text": "Learn about space and people who explore it.",
+          "text": "Observe in the sky or select from a book, chart, computer, or electronic device two constellations that are easy to see in the night sky. With your den or Tiger adult partner, find out the constellation name and how to identify them. Create a picture of one of the constellations.",
           "activities": [
-            {
-              "id": "sky-is-the-limit-3a",
-              "name": "Name something you can see in the night sky."
-            },
-            {
-              "id": "sky-is-the-limit-3b",
-              "name": "Talk about what astronauts do."
-            }
+            { "id": "sky-is-the-limit-3a", "name": "Pictures in the Sky", "description": "Identify and observe two constellations in the night sky." },
+            { "id": "sky-is-the-limit-3b", "name": "Sticker Constellations", "description": "Cub Scouts will look at constellation flashcards and pick their favorite to recreate in sticker art." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Create a homemade model of a constellation.",
+          "activities": [
+            { "id": "sky-is-the-limit-4a", "name": "Can-stellation", "description": "Make a model constellation out of a tin can." },
+            { "id": "sky-is-the-limit-4b", "name": "Edible Constellation", "description": "Make an edible model of a constellation." },
+            { "id": "sky-is-the-limit-4c", "name": "Glowing Constellation", "description": "Glow in the dark painting of constellations." }
           ]
         }
       ]
@@ -786,117 +858,108 @@
       "name": "Stories in Shapes",
       "type": "optional",
       "category": "Art & Creativity",
-      "description": "Create art using shapes and colors, and tell a story with your art.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Construction paper",
-        "Scissors",
-        "Glue",
-        "Markers"
-      ],
+      "description": "Tigers will explore math through the discovery of art and how shapes and symbols can tell a story.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Explore how artists use shapes and colors.",
+          "text": "Explore art in your community.",
           "activities": [
-            {
-              "id": "stories-in-shapes-1a",
-              "name": "Look at art and find the shapes in it."
-            },
-            {
-              "id": "stories-in-shapes-1b",
-              "name": "Name the colors you see in artwork."
-            }
+            { "id": "stories-in-shapes-1a", "name": "Art on Display", "description": "Visit an art museum." },
+            { "id": "stories-in-shapes-1b", "name": "Art Trail", "description": "Take a walk in a neighborhood with public art such as outdoor murals, statues, and sculptures." },
+            { "id": "stories-in-shapes-1c", "name": "Virtual Tour of Art", "description": "Coordinate a virtual tour of the Van Gogh Museum in Amsterdam, Netherlands." }
           ]
         },
         {
           "number": 2,
-          "text": "Create a picture using shapes.",
+          "text": "Look closely at art or a picture of art with your den or Tiger adult partner. Decide what you like about the art, and share your ideas with your den, family or Tiger adult partner.",
           "activities": [
-            {
-              "id": "stories-in-shapes-2a",
-              "name": "Cut and glue shapes into a picture."
-            },
-            {
-              "id": "stories-in-shapes-2b",
-              "name": "Use shapes to make an animal or scene."
-            }
+            { "id": "stories-in-shapes-2a", "name": "Art on Display part 2", "description": "This activity is designed to be done in combination with requirement 1 and the Art on Display activity at an art museum." },
+            { "id": "stories-in-shapes-2b", "name": "Art Trail part 2", "description": "This activity is designed to be done in combination with requirement 1 and the Art Trail activity." },
+            { "id": "stories-in-shapes-2c", "name": "Virtual Tour of Art 2", "description": "This activity is designed to be done in combination with requirement 1 and the Virtual Tour of Art activity." }
           ]
         },
         {
           "number": 3,
-          "text": "Tell a story about your art.",
+          "text": "Create a piece of art using shapes.",
           "activities": [
-            {
-              "id": "stories-in-shapes-3a",
-              "name": "Describe what your picture shows."
-            },
-            {
-              "id": "stories-in-shapes-3b",
-              "name": "Tell the story behind your creation."
-            }
+            { "id": "stories-in-shapes-3a", "name": "Folding Art", "description": "Make an origami cat." },
+            { "id": "stories-in-shapes-3b", "name": "My Art From Shapes", "description": "Using the shapes in the Tiger Handbook (page 55) make a piece of art." },
+            { "id": "stories-in-shapes-3c", "name": "Spiral Art", "description": "Make a drawing using a spiral stencil set." },
+            { "id": "stories-in-shapes-3d", "name": "Tangram Animals", "description": "Using tangrams make animal shapes." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Learn how to spell your name in Braille and sign language.",
+          "activities": [
+            { "id": "stories-in-shapes-4a", "name": "Get To Know Me and Sign Language", "description": "Invite someone who is deaf or an interpreter for the deaf to visit the den." },
+            { "id": "stories-in-shapes-4b", "name": "Reading with Your Hands", "description": "Using puffy round stickers spell your name in braille." },
+            { "id": "stories-in-shapes-4c", "name": "The Art of Sign Language", "description": "Cub Scouts will learn about American Sign Language and how to sign their name." }
           ]
         }
       ]
     },
     {
-      "id": "tiger-iffic",
-      "name": "Tiger-iffic!",
+      "id": "summertime-fun",
+      "name": "Summertime Fun",
       "type": "optional",
-      "category": "Personal Fitness",
-      "description": "Get moving and discover how fun it is to be active and healthy.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Comfortable clothes",
-        "Water bottle"
-      ],
+      "category": "Outdoors",
+      "description": "Stay active in the summertime by attending den or pack events, Cub Scout Day Camp, or Resident Camp.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn why being active keeps you healthy.",
+          "text": "Anytime during May through August participate in a total of three Cub Scout activities.",
           "activities": [
-            {
-              "id": "tiger-iffic-1a",
-              "name": "Talk about why exercise is good for your body."
-            },
-            {
-              "id": "tiger-iffic-1b",
-              "name": "Share a fun way you like to be active."
-            }
+            { "id": "summertime-fun-1a", "name": "Council activity Tiger", "description": "Participate in an activity with your council." },
+            { "id": "summertime-fun-1b", "name": "Den activity Tiger", "description": "Participate in an activity with your den." },
+            { "id": "summertime-fun-1c", "name": "Pack activity Tiger", "description": "Participate in an activity with your pack." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech-all-around",
+      "name": "Tech All Around",
+      "type": "optional",
+      "category": "Science & Technology",
+      "description": "Tigers will identify technology that is common in most homes and discover how technology has improved along with safety rules around technology they come in contact with.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Discover technology around your home, meeting place, or neighborhood.",
+          "activities": [
+            { "id": "tech-all-around-1a", "name": "Detective Walk", "description": "Cub Scouts will identify technology in their everyday lives." },
+            { "id": "tech-all-around-1b", "name": "Technology at Home", "description": "Discover technology at home." },
+            { "id": "tech-all-around-1c", "name": "Tigers Hunt for Technology", "description": "Scavenger hunt for technology." }
           ]
         },
         {
           "number": 2,
-          "text": "Play an active game with your den.",
+          "text": "Discover ways that digital technology can make life easier.",
           "activities": [
-            {
-              "id": "tiger-iffic-2a",
-              "name": "Play a running or movement game."
-            },
-            {
-              "id": "tiger-iffic-2b",
-              "name": "Do a stretching routine together."
-            }
+            { "id": "tech-all-around-2a", "name": "Low Tech vs. High Tech", "description": "Cub Scouts complete activities without using technology and with the help of technology." },
+            { "id": "tech-all-around-2b", "name": "Technology Charades", "description": "A game of charades that identifies how technology has made life easier." },
+            { "id": "tech-all-around-2c", "name": "The Way It Was", "description": "Tiger adult partners share what life was like before modern technology." }
           ]
         },
         {
           "number": 3,
-          "text": "Learn how your heart and body feel when active.",
+          "text": "Identify an item of digital technology you use at home. Demonstrate to your adult partner how you use it safely.",
           "activities": [
-            {
-              "id": "tiger-iffic-3a",
-              "name": "Feel your heart beat faster after exercise."
-            },
-            {
-              "id": "tiger-iffic-3b",
-              "name": "Talk about how being active makes you feel."
-            }
+            { "id": "tech-all-around-3a", "name": "Be Safe with Technology Tiger", "description": "Discuss digital technology that the Cub Scout has access to and proper use." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "With your parent or legal guardian, set up a policy for digital devices.",
+          "activities": [
+            { "id": "tech-all-around-4a", "name": "Smart and Safe with Technology", "description": "Cub Scouts create rules for the use of digital devices." }
           ]
         }
       ]
@@ -906,56 +969,145 @@
       "name": "Tiger Tag",
       "type": "optional",
       "category": "Games & Fun",
-      "description": "Play active games with your den and learn how to have fun together.",
-      "prerequisites": [
-        "Bobcat rank"
-      ],
-      "materials": [
-        "Tiger Handbook",
-        "Open space",
-        "Soft balls or cones"
-      ],
+      "description": "Learning teamwork, good sportsmanship, and having fun with their family or den by playing outdoor games or sports is packed into this Adventure, including attending a sporting event together.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
       "requirements": [
         {
           "number": 1,
-          "text": "Learn the rules of a game and play it.",
+          "text": "Play an active game with your den. Share with your Tiger adult partner or your den why you like this game.",
           "activities": [
-            {
-              "id": "tiger-tag-1a",
-              "name": "Learn a tag or chasing game."
-            },
-            {
-              "id": "tiger-tag-1b",
-              "name": "Play the game with your den."
-            }
+            { "id": "tiger-tag-1a", "name": "Tiger Blob Tag", "description": "Play Blob Tag." },
+            { "id": "tiger-tag-1b", "name": "Tiger Duck Duck Goose", "description": "Play a game of duck, duck, goose." },
+            { "id": "tiger-tag-1c", "name": "Tiger Hide and Seek", "description": "Play a game of hide and seek." }
           ]
         },
         {
           "number": 2,
-          "text": "Create a game of your own.",
+          "text": "Play a relay game with your den. Share with your Tiger adult partner or your den why you like this game.",
           "activities": [
-            {
-              "id": "tiger-tag-2a",
-              "name": "Invent a game with simple rules."
-            },
-            {
-              "id": "tiger-tag-2b",
-              "name": "Teach your game to the den."
-            }
+            { "id": "tiger-tag-2a", "name": "Tiger Dress Up Relay", "description": "Play Tiger Dress-Up relay." },
+            { "id": "tiger-tag-2b", "name": "Tiger Passing the Ball Relay", "description": "Play Passing the Ball Relay race." },
+            { "id": "tiger-tag-2c", "name": "Tiger Ping-pong Relay", "description": "Play Ping-pong ball relay." }
           ]
         },
         {
           "number": 3,
-          "text": "Learn about good sportsmanship.",
+          "text": "Discuss what it means to be a good sport in a game with your Tiger adult partner or other Tigers.",
           "activities": [
-            {
-              "id": "tiger-tag-3a",
-              "name": "Practice taking turns and being fair."
-            },
-            {
-              "id": "tiger-tag-3b",
-              "name": "Cheer for teammates and shake hands after the game."
-            }
+            { "id": "tiger-tag-3a", "name": "Referee Visit", "description": "Invite someone who is a referee (volunteer or professional) to discuss sportsmanship with the den." },
+            { "id": "tiger-tag-3b", "name": "Sportsmanship Practice", "description": "Cub Scouts will learn about and practice good sportsmanship." },
+            { "id": "tiger-tag-3c", "name": "Who is Being a Good Sport", "description": "Cub Scouts complete activity in the Tiger handbook to identify good sportsmanship." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Attend a sporting event.",
+          "activities": [
+            { "id": "tiger-tag-4a", "name": "Tiger Catch the Game On TV", "description": "Watch a sporting event on television." },
+            { "id": "tiger-tag-4b", "name": "Tiger Friday Night Lights", "description": "Attend a high school football game." },
+            { "id": "tiger-tag-4c", "name": "Tiger Let's Play Ball", "description": "Attend a professional baseball game." },
+            { "id": "tiger-tag-4d", "name": "Tiger Youth Sporting Event", "description": "Attend a youth sporting event." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiger-iffic",
+      "name": "Tiger-iffic!",
+      "type": "optional",
+      "category": "Games & Fun",
+      "description": "Taking turns and following the rules of the game is the lesson behind this fun Adventure as Tigers play by the rules.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Play at least two different games by yourself; one may be a video game.",
+          "activities": [
+            { "id": "tiger-iffic-1a", "name": "Disc Golf and Soccer Golf", "description": "Set up a golf course to play disc and soccer golf." },
+            { "id": "tiger-iffic-1b", "name": "Scout Life Games and Puzzles", "description": "Cub Scouts play a video game on the Scout Life Magazine website and complete a crossword puzzle." },
+            { "id": "tiger-iffic-1c", "name": "Seven Up and Indoor Bowling", "description": "Two fun games that only take one player, indoor bowling and seven up." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Play a board game or another inside game with one or more members of your den or family.",
+          "activities": [
+            { "id": "tiger-iffic-2a", "name": "Catch Them All!", "description": "Conduct a Pokémon tournament." },
+            { "id": "tiger-iffic-2b", "name": "Checkers Tournament", "description": "Conduct a Checkers tournament." },
+            { "id": "tiger-iffic-2c", "name": "Den Game Time", "description": "Members of the den bring their favorite board or card game to play." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "With other members of your den or family, invent a game, or change the rules of a game you know, and play the game.",
+          "activities": [
+            { "id": "tiger-iffic-3a", "name": "Checkers with a Twist", "description": "Change the rules to checkers by allowing another turn if you take another players checker." },
+            { "id": "tiger-iffic-3b", "name": "Game Remix", "description": "Cub Scouts and their adult partners will work together in small groups to remix the rules of a familiar game. Then, they will play their remixed games with the rest of the den." },
+            { "id": "tiger-iffic-3c", "name": "My Cub Scout Game", "description": "Make a board game based on Cub Scouting." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Play a team game with your den or family.",
+          "activities": [
+            { "id": "tiger-iffic-4a", "name": "Let's Bowl!", "description": "Take the den bowling." },
+            { "id": "tiger-iffic-4b", "name": "Tiger Balloon Volleyball", "description": "Play a game of balloon volleyball." },
+            { "id": "tiger-iffic-4c", "name": "Tiger Den Kickball", "description": "Play a game of kickball." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tigers-in-the-water",
+      "name": "Tigers in the Water",
+      "type": "optional",
+      "category": "Outdoors",
+      "description": "Tigers will learn how to stay safe in the water and get comfortable with being in the water. Tigers can earn this Adventure by completing the requirements OR by taking swim lessons.",
+      "prerequisites": ["Bobcat rank"],
+      "materials": [],
+      "requirements": [
+        {
+          "number": 1,
+          "text": "Learn about the swimming safety rules that you need to follow.",
+          "activities": [
+            { "id": "tigers-in-the-water-1a", "name": "Tiger Safe Swim Defense", "description": "Cub Scouts will identify the Safe Swim Defense." }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Demonstrate how to enter the swimming area properly.",
+          "activities": [
+            { "id": "tigers-in-the-water-2a", "name": "Swim Area Safety", "description": "Before going swimming Cub Scouts learn how to properly enter the swimming area." }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "With your Tiger adult partner as your buddy, be active in water depths matching your ability for 20 minutes.",
+          "activities": [
+            { "id": "tigers-in-the-water-3a", "name": "Go Swimming", "description": "Take your den and go swimming." }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Place your face in the water and blow bubbles.",
+          "activities": [
+            { "id": "tigers-in-the-water-4a", "name": "Bubbles in the Water", "description": "While in the pool Cub Scouts will blow bubbles in the water." }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Demonstrate a flutter kick.",
+          "activities": [
+            { "id": "tigers-in-the-water-5a", "name": "Flutter Kicking", "description": "Demonstrate the flutter kick using the side of the pool for assistance." }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Demonstrate how to exit the swimming area properly.",
+          "activities": [
+            { "id": "tigers-in-the-water-6a", "name": "Swim Time Is Over", "description": "Demonstrate the importance of exiting the pool safely and removing buddy tag from the buddy board." }
           ]
         }
       ]
