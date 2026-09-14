@@ -17,7 +17,10 @@ RUN npm run build
 # Stage 3: runtime
 FROM node:22-alpine AS runtime
 WORKDIR /app
-RUN addgroup -S app && adduser -S app -G app
+# Run as the base image's built-in `node` user (UID/GID 1000, baked into
+# node:22-alpine) instead of creating a new one -- it's stable across image
+# rebuilds. The bind-mounted signups.json on the host must be chowned to
+# 1000:1000 to match (see AGENTS.md).
 
 COPY --from=build /app/package.json ./
 COPY --from=build /app/node_modules ./node_modules
@@ -26,8 +29,8 @@ COPY --from=build /app/content ./content
 COPY --from=build /app/signups.json ./signups.json
 COPY --from=build /app/config.json ./config.json
 
-RUN chown -R app:app /app
-USER app
+RUN chown -R node:node /app
+USER node
 
 ENV PORT=3000
 EXPOSE 3000

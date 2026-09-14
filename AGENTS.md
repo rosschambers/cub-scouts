@@ -126,6 +126,18 @@ desktop (1280px) and mobile (400px) widths.
   can't mount a single file) and maps a host port to container port 3000. The app is
   deployed behind a reverse proxy; wire it into your own infrastructure (proxy, TLS,
   DNS) however you host containers.
+- **The bind-mounted `signups.json` must be owned by UID/GID 1000 on the host**, matching
+  the container's non-root user (`Dockerfile` runs as `node:22-alpine`'s built-in `node`
+  user, UID/GID 1000 baked into the base image — stable across rebuilds, unlike creating
+  a fresh Alpine system user, whose UID isn't guaranteed and collided with the base
+  image's existing GID 1000 in a first attempt at this fix).
+  A bind mount replaces the file's ownership/permissions with whatever the host copy has —
+  the image's build-time `chown -R node:node /app` has no effect on it once mounted. If
+  `signups.json` was created on the host by a different process/user (root, an rsync
+  as a different account, etc.), sign-up writes fail with `EACCES: permission denied,
+  open '/app/signups.json'` even though reads work fine. Fix: `chown 1000:1000
+  signups.json` on the host (or `chmod 666 signups.json` if you don't want to bother
+  matching the UID).
 
 ### How it is actually deployed in this homelab (serve host)
 
